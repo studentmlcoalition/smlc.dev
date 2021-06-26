@@ -21,7 +21,6 @@ function Resources() {
                 </div>
 
                 {/*  Page sections */}
-                {/*<HeroHome />*/}
                 <br></br>
                 <br></br>
                 <br></br>

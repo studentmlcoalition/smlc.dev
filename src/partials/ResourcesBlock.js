@@ -29,7 +29,7 @@ function ResourcesBlock() {
                                 for efficency, but you don't need any prior knowledge before starting.
                             </blockquote>
                             <div className="font-red-hat-display font-bold mt-2">
-                                <a className="text-teal-500 transition duration-150 ease-in-out" href="#0">smlc.dev/course</a>
+                                <a className="text-teal-500 transition duration-150 ease-in-out" href="#0">Coming Soon!</a>
                             </div>
                         </div>
 
@@ -43,7 +43,7 @@ function ResourcesBlock() {
                                 learners and win cash all while having a blast!
                             </blockquote>
                             <div className="font-red-hat-display font-bold mt-2">
-                                <a className="text-teal-500 transition duration-150 ease-in-out" href="#0">kaggle.com</a>
+                                <a className="text-teal-500 transition duration-150 ease-in-out" href="https://www.kaggle.com/">kaggle.com</a>
                             </div>
                         </div>
 
@@ -57,7 +57,7 @@ function ResourcesBlock() {
                                 It's an awesome resource for building algorithms since Colab saves easily to your google drive account!
                             </blockquote>
                             <div className="font-red-hat-display font-bold mt-2">
-                                <a className="text-teal-500 transition duration-150 ease-in-out" href="#0">colab.google.com</a>
+                                <a className="text-teal-500 transition duration-150 ease-in-out" href="https://colab.google.com">colab.google.com</a>
                             </div>
                         </div>
 
@@ -71,7 +71,65 @@ function ResourcesBlock() {
                                 Neural Networks or Support Vector Machines, we reccomend picking up this book!
                             </blockquote>
                             <div className="font-red-hat-display font-bold mt-2">
-                                <a className="text-teal-500 transition duration-150 ease-in-out" href="#0">Appy.com</a>
+                                <a className="text-teal-500 transition duration-150 ease-in-out" href="https://www.amazon.com/Introduction-Statistical-Learning-Applications-Statistics/dp/1461471370">amazon.com</a>
+                            </div>
+                        </div>
+
+                        {/* 5th testimonial */}
+                        <div className="text-center">
+                            <div className="relative inline-flex flex-col mb-4">
+                                <img src={require('../images/portillaresource.png').default} width="200" height="200" alt="Testimonial 04" />
+                            </div>
+                            <blockquote className="text-xl text-gray-600 dark:text-gray-400">
+                                Udemy is a platform with courses from reputable teachers, allowing you to pick up skills in any field.
+                                Jose Portilla's ML Bootcamp is one of the most popular courses on the platform,
+                                and we reccomend taking it!
+                            </blockquote>
+                            <div className="font-red-hat-display font-bold mt-2">
+                                <a className="text-teal-500 transition duration-150 ease-in-out" href="https://www.udemy.com/course/python-for-data-science-and-machine-learning-bootcamp/">udemy.com</a>
+                            </div>
+                        </div>
+
+                        {/* 6th testimonial */}
+                        <div className="text-center">
+                            <div className="relative inline-flex flex-col mb-4">
+                                <img src={require('../images/sqresource.png').default} width="200" height="200" alt="Testimonial 04" />
+                            </div>
+                            <blockquote className="text-xl text-gray-600 dark:text-gray-400">
+                                Statquest is our favorite ML Youtube Channel! With easy to understand explinations, entertaining
+                                teaching, and descriptive graphics, Statquest is one of the best ways to learn how ML models work.
+                            </blockquote>
+                            <div className="font-red-hat-display font-bold mt-2">
+                                <a className="text-teal-500 transition duration-150 ease-in-out" href="https://www.youtube.com/user/joshstarmer">youtube.com</a>
+                            </div>
+                        </div>
+
+                        {/* 7th testimonial */}
+                        <div className="text-center">
+                            <div className="relative inline-flex flex-col mb-4">
+                                <img src={require('../images/tdsresource.png').default} width="200" height="200" alt="Testimonial 04" />
+                            </div>
+                            <blockquote className="text-xl text-gray-600 dark:text-gray-400">
+                                Towards Data Science is a data science blog – with over 500,000 followers on Medium,
+                                TDS is very popular. TDS is perfect if you want to learn a new algorithm, understand frameworks, or find
+                                a tutorial!
+                            </blockquote>
+                            <div className="font-red-hat-display font-bold mt-2">
+                                <a className="text-teal-500 transition duration-150 ease-in-out" href="https://towardsdatascience.com/">towardsdatascience.com</a>
+                            </div>
+                        </div>
+
+                        {/* 8th testimonial */}
+                        <div className="text-center">
+                            <div className="relative inline-flex flex-col mb-4">
+                                <img src={require('../images/courseraresource.png').default} width="200" height="200" alt="Testimonial 04" />
+                            </div>
+                            <blockquote className="text-xl text-gray-600 dark:text-gray-400">
+                                This coursera course about competitive ML is very insightful for anyone looking to step up their
+                                Kaggle performance. In it, you learn from experienced kagglers about essential algorithms and techniques!
+                            </blockquote>
+                            <div className="font-red-hat-display font-bold mt-2">
+                                <a className="text-teal-500 transition duration-150 ease-in-out" href="https://www.coursera.org/learn/competitive-data-science">coursera.com</a>
                             </div>
                         </div>
                     </div>
