@@ -13,7 +13,7 @@ import { focusHandling } from 'cruip-js-toolkit';
 import Home from './pages/Home';
 import Resources from './pages/Resources';
 import Testimonials from './pages/Testimonials';
-import Blog from './pages/Blog';
+import Blog from './pages/Partners';
 import BlogPost from './pages/BlogPost';
 import About from './pages/About';
 import Contact from './pages/Contact';
@@ -49,6 +49,7 @@ function App() {
         <Route path="/resources">
           <Resources />
         </Route>
+
         <Route path="/testimonials">
           <Testimonials />
         </Route>
