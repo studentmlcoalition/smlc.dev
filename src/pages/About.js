@@ -1,9 +1,10 @@
 import React from 'react';
 
 import Header from '../partials/Header';
-import HeroAbout from '../partials/HeroAbout';
+import AboutTop from '../partials/AboutTop';
+import AboutTransition from '../partials/AboutTransition';
 import FeaturesGallery from '../partials/FeaturesGallery';
-import Timeline from '../partials/Timeline';
+import AboutText from '../partials/AboutText';
 import Career from '../partials/Career';
 import FeaturesAnimation from '../partials/FeaturesAnimation';
 import Team from '../partials/Team';
@@ -21,13 +22,13 @@ function About() {
       <main className="flex-grow">
 
         {/*  Page sections */}
-        <HeroAbout />
-        <FeaturesGallery />
-        <Timeline />
-        <Career />
-        <FeaturesAnimation />
-        <Team />
-        <CtaContact />
+        <AboutTop />
+        <AboutTransition />
+        <AboutText />
+
+        {/* Include Later: */}
+        {/* A map possibly*/}
+        {/*<Team /> */}
 
       </main>
 
