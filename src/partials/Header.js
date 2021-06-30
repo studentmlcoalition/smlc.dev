@@ -1,6 +1,5 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import Dropdown from '../utils/Dropdown';
 import Transition from '../utils/Transition.js';
 
 function Header() {
@@ -30,10 +29,8 @@ function Header() {
   });
 
   // Handle light modes
-  const [darkMode, setDarkMode] = useState(() => {
-    const dark = localStorage.getItem('dark-mode');
+  const [darkMode] = useState(() => {
     return false;
-    return dark === 'false';
   });
 
   useEffect(() => {
