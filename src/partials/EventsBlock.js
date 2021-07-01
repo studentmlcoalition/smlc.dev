@@ -15,6 +15,7 @@ function EventsBlock() {
 
                     {/* Events */}
                     <div className="max-w-sm mx-auto grid gap-x-8 gap-y-12 sm:grid-cols-2 lg:gap-12 items-start sm:max-w-none md:max-w-2xl lg:max-w-none">
+
                         {/*First event*/}
                         <div className="text-center">
                             <div className="relative inline-flex flex-col mb-4">
@@ -25,9 +26,6 @@ function EventsBlock() {
                             </blockquote>
                             <div className="font-red-hat-display font-bold mt-2">
                                 <a className="text-teal-500 transition duration-150 ease-in-out" href="https://aispectra.weebly.com/contact.html">Contact</a>
-                            </div>
-                            <div className="font-red-hat-display font-bold mt-2">
-                                <a className="text-teal-500 transition duration-150 ease-in-out" href="https://aispectra.weebly.com/what-is-ai-spectra.html">Learn more</a>
                             </div>
                         </div>
                     </div>
