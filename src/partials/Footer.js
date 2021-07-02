@@ -70,7 +70,7 @@ function Footer() {
                         <h6 className="font-medium uppercase mb-2">Resources</h6>
                         <ul>
                             <li className="mb-1">
-                                <a className="text-gray-600 dark:text-gray-400 hover:underline transition duration-150 ease-in-out" href="#">SMLC Course</a>
+                                <a className="text-gray-600 dark:text-gray-400 hover:underline transition duration-150 ease-in-out" to="/">SMLC Course</a>
                             </li>
                             <li className="mb-1">
                                 <a className="text-gray-600 dark:text-gray-400 hover:underline transition duration-150 ease-in-out" href="https://kaggle.com">Kaggle</a>
@@ -89,7 +89,7 @@ function Footer() {
                         <h6 className="font-medium uppercase mb-2">Pages</h6>
                         <ul>
                             <li className="mb-1">
-                                <Link className="text-gray-600 dark:text-gray-400 hover:underline transition duration-150 ease-in-out" to="#">Home</Link>
+                                <Link className="text-gray-600 dark:text-gray-400 hover:underline transition duration-150 ease-in-out" to="/">Home</Link>
                             </li>
                             <li className="mb-1">
                                 <Link className="text-gray-600 dark:text-gray-400 hover:underline transition duration-150 ease-in-out" to="about">About us</Link>
@@ -101,7 +101,7 @@ function Footer() {
                                 <Link className="text-gray-600 dark:text-gray-400 hover:underline transition duration-150 ease-in-out" to="resources">Resources</Link>
                             </li>
                             <li className="mb-1">
-                                <Link className="text-gray-600 dark:text-gray-400 hover:underline transition duration-150 ease-in-out" to="#">Leadership</Link>
+                                <Link className="text-gray-600 dark:text-gray-400 hover:underline transition duration-150 ease-in-out" to="/">Leadership</Link>
                             </li>
                         </ul>
                     </div>
@@ -117,7 +117,7 @@ function Footer() {
                                 <a className="text-gray-600 dark:text-gray-400 hover:underline transition duration-150 ease-in-out" href="https://www.instagram.com/studentmlcoalition/">Instagram</a>
                             </li>
                             {/*<li className="mb-1">*/}
-                            {/*    <a className="text-gray-600 dark:text-gray-400 hover:underline transition duration-150 ease-in-out" href="#">Twitter</a>*/}
+                            {/*    <a className="text-gray-600 dark:text-gray-400 hover:underline transition duration-150 ease-in-out" to="/">Twitter</a>*/}
                             {/*</li>*/}
                             <li className="mb-1">
                                 <a className="text-gray-600 dark:text-gray-400 hover:underline transition duration-150 ease-in-out" href="https://github.com/studentmlcoalition">Github</a>
