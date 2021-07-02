@@ -85,6 +85,9 @@ function Header() {
               <li>
                 <Link to="/resources" className="text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-gray-100 px-5 py-2 flex items-center transition duration-150 ease-in-out">Resources</Link>
               </li>
+              <li>
+                <Link to="/events" className="text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-gray-100 px-5 py-2 flex items-center transition duration-150 ease-in-out">Events</Link>
+              </li>
               {/* 1st level: hover */}
 
             </ul>
@@ -151,6 +154,9 @@ function Header() {
                     </li>
                     <li>
                       <Link to="/blog" className="flex text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-gray-100 py-2">Partners</Link>
+                    </li>
+                    <li>
+                      <Link to="/events" className="flex text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-gray-100 py-2">Events</Link>
                     </li>
                     <li>
                       <Link to="/testimonials" className="flex text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-gray-100 py-2">Testimonials</Link>

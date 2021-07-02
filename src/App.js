@@ -19,6 +19,7 @@ import About from './pages/About';
 import Contact from './pages/Contact';
 import Help from './pages/Help';
 import PageNotFound from './pages/PageNotFound';
+import Events from './pages/Events';
 
 function App() {
 
@@ -70,6 +71,9 @@ function App() {
         </Route>
         <Route path="*">
           <PageNotFound />
+        </Route>
+        <Route path="/events">
+          <Events />
         </Route>
       </Switch>
     </>
