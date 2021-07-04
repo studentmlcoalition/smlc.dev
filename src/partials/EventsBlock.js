@@ -25,7 +25,7 @@ function EventsBlock() {
                                 Workshop with AI Spectra on August 21st, 2021.
                             </blockquote>
                             <div className="font-red-hat-display font-bold mt-2">
-                                <a className="text-teal-500 transition duration-150 ease-in-out" href="https://aispectra.weebly.com/contact.html">Contact</a>
+                                <a className="text-teal-500 hover:underline transition duration-150 ease-in-out" href="https://aispectra.weebly.com/contact.html">Contact</a>
                             </div>
                         </div>
                     </div>
