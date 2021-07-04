@@ -26,10 +26,10 @@ function ResourcesBlock() {
                                 Code 4 Tomorrow is a non-profit organization that aims to serve low-income students across the world by enlisting the help of Bay Area high schoolers and industry professionals. C4T hopes to jumpstart the careers of disadvantaged youth into the computer science industry and is cultivating the brightest minds of tomorrow.
                             </blockquote>
                             <div className="font-red-hat-display font-bold mt-2">
-                                <a className="text-teal-500 transition duration-150 ease-in-out" href="https://code4tomorrow.org/contact">Contact</a>
+                                <a className="text-teal-500 hover:underline transition duration-150 ease-in-out" href="https://code4tomorrow.org/contact">Contact</a>
                             </div>
                             <div className="font-red-hat-display font-bold mt-2">
-                                <a className="text-teal-500 transition duration-150 ease-in-out" href="https://code4tomorrow.org/about">Learn more</a>
+                                <a className="text-teal-500 hover:underline transition duration-150 ease-in-out" href="https://code4tomorrow.org/about">Learn more</a>
                             </div>
                         </div>
 
@@ -42,10 +42,10 @@ function ResourcesBlock() {
                                 AI Spectra is a STEAM outreach program that focuses on diversity, inclusion, and teaching applicable skills to youth across the country. In order to solve for the increasing lack of diversity in computer science, AISpectra aims to inspire young women and non-binary students to pursue a CS career by recruiting industry professionals, building community partnerships, and teaching real-world applicable skills to youth across the country.
                             </blockquote>
                             <div className="font-red-hat-display font-bold mt-2">
-                                <a className="text-teal-500 transition duration-150 ease-in-out" href="https://aispectra.weebly.com/contact.html">Contact</a>
+                                <a className="text-teal-500 hover:underline transition duration-150 ease-in-out" href="https://aispectra.weebly.com/contact.html">Contact</a>
                             </div>
                             <div className="font-red-hat-display font-bold mt-2">
-                                <a className="text-teal-500 transition duration-150 ease-in-out" href="https://aispectra.weebly.com/what-is-ai-spectra.html">Learn more</a>
+                                <a className="text-teal-500 hover:underline transition duration-150 ease-in-out" href="https://aispectra.weebly.com/what-is-ai-spectra.html">Learn more</a>
                             </div>
                         </div>
                     </div>

@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 function Process() {
   return (
@@ -8,27 +9,9 @@ function Process() {
 
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
-            <h2 className="h2 font-red-hat-display mb-4">Build and style every element to perfection</h2>
-            <p className="text-xl text-gray-600 dark:text-gray-400">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur excepteur sint occaecat cupidatat.</p>
+            <h2 className="h2 font-red-hat-display mb-4">What We Do</h2>
+            <p className="text-xl text-gray-600 dark:text-gray-400">How SMLC can help programming beginners become proficient in machine learning and apply their skills with real-world data (visit the <Link className="underline transition duration-150 ease-in-out" to="about">about</Link> page for more info).</p>
           </div>
-
-          {/* Glow illustration */}
-          <svg className="absolute left-1/2 transform -translate-x-1/2 mt-20 lg:mt-40 pointer-events-none -z-1 dark:opacity-20 hidden md:block" aria-hidden="true" width="854" height="509" viewBox="0 0 854 509" xmlns="http://www.w3.org/2000/svg">
-            <defs>
-              <radialGradient cx="50%" cy="50%" fx="50%" fy="50%" r="39.386%" id="iphonesill__a">
-                <stop stopColor="#667EEA" offset="0%" />
-                <stop stopColor="#667EEA" stopOpacity="0" offset="100%" />
-              </radialGradient>
-              <radialGradient cx="50%" cy="50%" fx="50%" fy="50%" r="39.386%" id="iphonesill__b">
-                <stop stopColor="#9F7AEA" offset="0%" />
-                <stop stopColor="#9F7AEA" stopOpacity="0" offset="100%" />
-              </radialGradient>
-            </defs>
-            <g transform="translate(-64 -64)" fill="none" fillRule="evenodd">
-              <circle fillOpacity=".64" fill="url(#iphonesill__a)" cx="300" cy="300" r="300" />
-              <circle fillOpacity=".72" fill="url(#iphonesill__b)" cx="729" cy="384" r="240" />
-            </g>
-          </svg>
 
           {/* Items */}
           <div className="max-w-sm mx-auto grid gap-12 md:gap-x-6 lg:gap-x-12 md:grid-cols-3 items-start md:max-w-none">
@@ -43,10 +26,7 @@ function Process() {
               <div className="w-12 h-12 rounded-full bg-teal-400 dark:bg-teal-600 dark:bg-opacity-25 flex justify-center items-center text-white dark:text-teal-400 font-medium mb-8 lg:mb-12">1</div>
               {/* Mobile mockup */}
               <div className="inline-flex relative justify-center items-center">
-                {/* Image inside mockup size: 290x624px (or 580x1248px for Retina devices) */}
-                <img className="absolute" src={require('../images/mockup-image-02.jpg').default} width="290" height="624" style={{ maxWidth: '84.33%' }} alt="App screen 02" />
-                {/* iPhone mockup */}
-                <img className="relative max-w-full mx-auto h-auto pointer-events-none" src={require('../images/iphone-mockup.png').default} width="344" height="674" alt="iPhone mockup" aria-hidden="true" />
+                <p className="text-xl text-gray-600 dark:text-gray-400">Learn the basics of Python, data science and machine learning with our in-depth lectures.</p>
               </div>
             </div>
 
@@ -60,10 +40,7 @@ function Process() {
               <div className="w-12 h-12 rounded-full bg-teal-400 dark:bg-teal-600 dark:bg-opacity-25 flex justify-center items-center text-white dark:text-teal-400 font-medium mb-8 lg:mb-12">2</div>
               {/* Mobile mockup */}
               <div className="inline-flex relative justify-center items-center">
-                {/* Image inside mockup size: 290x624px (or 580x1248px for Retina devices) */}
-                <img className="absolute" src={require('../images/mockup-image-03.jpg').default} width="290" height="624" style={{ maxWidth: '84.33%' }} alt="App screen 03" />
-                {/* iPhone mockup */}
-                <img className="relative max-w-full mx-auto h-auto pointer-events-none" src={require('../images/iphone-mockup.png').default} width="344" height="674" alt="iPhone mockup" aria-hidden="true" />
+                <p className="text-xl text-gray-600 dark:text-gray-400">Participate in Kaggle competitions with other SMLC students to build and test models on real-world data.</p>
               </div>
             </div>
 
@@ -72,10 +49,7 @@ function Process() {
               <div className="w-12 h-12 rounded-full bg-teal-400 dark:bg-teal-600 dark:bg-opacity-25 flex justify-center items-center text-white dark:text-teal-400 font-medium mb-8 lg:mb-12">3</div>
               {/* Mobile mockup */}
               <div className="inline-flex relative justify-center items-center">
-                {/* Image inside mockup size: 290x624px (or 580x1248px for Retina devices) */}
-                <img className="absolute" src={require('../images/mockup-image-04.jpg').default} width="290" height="624" style={{ maxWidth: '84.33%' }} alt="App screen 04" />
-                {/* iPhone mockup */}
-                <img className="relative max-w-full mx-auto h-auto pointer-events-none" src={require('../images/iphone-mockup.png').default} width="344" height="674" alt="iPhone mockup" aria-hidden="true" />
+              <p className="text-xl text-gray-600 dark:text-gray-400">Collaborate with other SMLC chapters to organize events, create a larger competition team, and much more!</p>
               </div>
             </div>
 

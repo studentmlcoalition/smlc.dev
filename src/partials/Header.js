@@ -89,15 +89,6 @@ function Header() {
 
             </ul>
 
-            
-
-            {/* Desktop CTA on the right */}
-            <ul className="flex justify-end flex-wrap items-center">
-              <li>
-                <Link to="/contact" className="btn-sm text-white bg-teal-500 hover:bg-teal-400 ml-6">Request code</Link>
-              </li>
-            </ul>
-
           </nav>
 
           {/* Mobile menu */}
