@@ -40,7 +40,7 @@ function ResourcesBlock() {
                             </div>
                             <blockquote className="text-xl text-gray-600 dark:text-gray-400">
                                 Kaggle is one of the best ways to put your ML skills and knowledge to the test! Compete with other machine
-                                learners and win cash all while having a blast!
+                                learners and win cash all while having a blast and working with real-world data!
                             </blockquote>
                             <div className="font-red-hat-display font-bold mt-2">
                                 <a className="text-teal-500 hover:underline transition duration-150 ease-in-out" href="https://www.kaggle.com/">kaggle.com</a>
@@ -53,8 +53,8 @@ function ResourcesBlock() {
                                 <img src={require('../images/colabresource.png').default} width="200" height="200" alt="Testimonial 04" />
                             </div>
                             <blockquote className="text-xl text-gray-600 dark:text-gray-400">
-                                Google Colab is an excellent alternative to jupyter notebook, the development environment we use in our course.
-                                It's an awesome resource for building algorithms since Colab saves easily to your google drive account!
+                                Google Colab is an excellent alternative to Jupyter, the development environment we use in our course.
+                                It's an awesome resource for building algorithms since Colab saves directly to your Google Drive!
                             </blockquote>
                             <div className="font-red-hat-display font-bold mt-2">
                                 <a className="text-teal-500 hover:underline transition duration-150 ease-in-out" href="https://colab.google.com">colab.google.com</a>
@@ -83,7 +83,7 @@ function ResourcesBlock() {
                             <blockquote className="text-xl text-gray-600 dark:text-gray-400">
                                 Udemy is a platform with courses from reputable teachers, allowing you to pick up skills in any field.
                                 Jose Portilla's ML Bootcamp is one of the most popular courses on the platform,
-                                and we reccomend taking it!
+                                and we recommend taking it!
                             </blockquote>
                             <div className="font-red-hat-display font-bold mt-2">
                                 <a className="text-teal-500 hover:underline transition duration-150 ease-in-out" href="https://www.udemy.com/course/python-for-data-science-and-machine-learning-bootcamp/">udemy.com</a>
@@ -96,7 +96,7 @@ function ResourcesBlock() {
                                 <img src={require('../images/sqresource.png').default} width="200" height="200" alt="Testimonial 04" />
                             </div>
                             <blockquote className="text-xl text-gray-600 dark:text-gray-400">
-                                Statquest is our favorite ML Youtube Channel! With easy to understand explinations, entertaining
+                                Statquest is our favorite ML Youtube channel! With easy to understand explanations, entertaining
                                 teaching, and descriptive graphics, Statquest is one of the best ways to learn how ML models work.
                             </blockquote>
                             <div className="font-red-hat-display font-bold mt-2">
@@ -110,8 +110,8 @@ function ResourcesBlock() {
                                 <img src={require('../images/tdsresource.png').default} width="200" height="200" alt="Testimonial 04" />
                             </div>
                             <blockquote className="text-xl text-gray-600 dark:text-gray-400">
-                                Towards Data Science is a data science blog with over 500,000 followers on Medium,
-                                TDS is very popular. TDS is perfect if you want to learn a new algorithm, understand frameworks, or find
+                                Towards Data Science is a data science blog with over 500,000 followers on Medium.
+                                TDS is perfect if you want to learn a new algorithm, understand frameworks, or find
                                 a tutorial!
                             </blockquote>
                             <div className="font-red-hat-display font-bold mt-2">
