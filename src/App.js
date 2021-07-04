@@ -11,12 +11,9 @@ import AOS from 'aos';
 import { focusHandling } from 'cruip-js-toolkit';
 
 import Home from './pages/Home';
-import Resources from './pages/Resources';
-import Blog from './pages/Partners';
-import BlogPost from './pages/BlogPost';
 import About from './pages/About';
-import Contact from './pages/Contact';
-import Help from './pages/Help';
+import Partners from './pages/Partners';
+import Resources from './pages/Resources';
 import Events from './pages/Events';
 import PageNotFound from './pages/PageNotFound';
 
@@ -41,38 +38,26 @@ function App() {
   }, [location.pathname]); // triggered on route change
 
   return (
-    <>
-      <Switch>
-        <Route exact path="/">
-          <Home />
-        </Route>
-        <Route path="/resources">
-          <Resources />
-        </Route>
-
-        <Route path="/blog">
-          <Blog />
-        </Route>
-        <Route path="/blog-post">
-          <BlogPost />
-        </Route>
-        <Route path="/about">
-          <About />
-        </Route>
-        <Route path="/contact">
-          <Contact />
-        </Route>
-        <Route path="/help">
-          <Help />
-        </Route>
-        <Route path="/events">
-          <Events />
-        </Route>
-        <Route path="*">
-          <PageNotFound />
-        </Route>
-      </Switch>
-    </>
+    <Switch>
+      <Route exact path="/">
+        <Home />
+      </Route>
+      <Route path="/about">
+        <About />
+      </Route>
+      <Route path="/partners">
+        <Partners />
+      </Route>
+      <Route path="/resources">
+        <Resources />
+      </Route>
+      <Route path="/events">
+        <Events />
+      </Route>
+      <Route path="*">
+        <PageNotFound />
+      </Route>
+    </Switch>
   );
 }
 

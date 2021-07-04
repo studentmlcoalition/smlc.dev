@@ -5,7 +5,7 @@ import PageIllustration from '../partials/PageIllustration';
 import Footer from '../partials/Footer';
 import PartnersBlock from "../partials/PartnersBlock";
 
-function Blog() {
+function Partners() {
     return (
         <div className="flex flex-col min-h-screen overflow-hidden">
 
@@ -36,4 +36,4 @@ function Blog() {
     );
 }
 
-export default Blog;
+export default Partners;
