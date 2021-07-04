@@ -87,7 +87,7 @@ function Footer() {
                                 <Link className="text-gray-600 dark:text-gray-400 hover:underline transition duration-150 ease-in-out" to="/">Home</Link>
                             </li>
                             <li className="mb-1">
-                                <Link className="text-gray-600 dark:text-gray-400 hover:underline transition duration-150 ease-in-out" to="about">About us</Link>
+                                <Link className="text-gray-600 dark:text-gray-400 hover:underline transition duration-150 ease-in-out" to="about">About</Link>
                             </li>
                             <li className="mb-1">
                                 <Link className="text-gray-600 dark:text-gray-400 hover:underline transition duration-150 ease-in-out" to="partners">Partners</Link>
@@ -106,16 +106,7 @@ function Footer() {
                         <h6 className="font-medium uppercase mb-2">Support</h6>
                         <ul>
                             <li className="mb-1">
-                                <a className="text-gray-600 dark:text-gray-400 hover:underline transition duration-150 ease-in-out" href="mailto: hello@smlc.dev">hello@smlc.dev</a>
-                            </li>
-                            <li className="mb-1">
-                                <a className="text-gray-600 dark:text-gray-400 hover:underline transition duration-150 ease-in-out" href="https://www.instagram.com/studentmlcoalition/">Instagram</a>
-                            </li>
-                            <li className="mb-1">
-                                <a className="text-gray-600 dark:text-gray-400 hover:underline transition duration-150 ease-in-out" href="https://github.com/studentmlcoalition">Github</a>
-                            </li>
-                            <li className="mb-1">
-                                <a className="text-gray-600 dark:text-gray-400 hover:underline transition duration-150 ease-in-out" href="https://www.linkedin.com/company/the-student-machine-learning-coalition">LinkedIn</a>
+                                <a className="text-gray-600 dark:text-gray-400 hover:underline transition duration-150 ease-in-out" href="mailto:hello@smlc.dev">Contact Us</a>
                             </li>
                         </ul>
                     </div>
