@@ -10,7 +10,7 @@ function AboutBlock() {
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
             <h2 className="h2 font-red-hat-display mb-4">The nation's first student-led competitive ML coalition</h2>
             <p className="text-xl text-gray-600 dark:text-gray-400">Our mission is to help anyone get involved in machine 
-                learning through Kaggle competitions, courses, and collaboration.</p>
+                learning through ML courses, Kaggle competitions, and collaboration.</p>
           </div>
 
           {/* Items */}

@@ -16,7 +16,7 @@ function HeroHome() {
             {/* Content */}
             <div className="md:col-span-7 lg:col-span-7 mb-8 md:mb-0 text-center md:text-left">
               <h1 className="h1 lg:text-6xl mb-10 font-red-hat-display font-extrabold" data-aos="fade-down">Student Machine Learning Coalition</h1>
-              <p className="text-xl text-gray-600 dark:text-gray-400" data-aos="fade-down" data-aos-delay="150">The nation's first student-led competitive ML coalition</p>
+              <p className="text-xl text-gray-600 dark:text-gray-400" data-aos="fade-down" data-aos-delay="150">The nation's first student-led competitive ML coalition.</p>
             </div>
 
             {/* Mobile mockup */}
