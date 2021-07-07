@@ -74,6 +74,9 @@ function Header() {
             {/* Desktop menu links */}
             <ul className="flex flex-grow flex-wrap items-center font-medium">
               <li>
+                <Link to="/home" className="text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-gray-100 px-5 py-2 flex items-center transition duration-150 ease-in-out">Home</Link>
+              </li>
+              <li>
                 <Link to="/about" className="text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-gray-100 px-5 py-2 flex items-center transition duration-150 ease-in-out">About</Link>
               </li>
               <li>
@@ -137,6 +140,9 @@ function Header() {
                   </svg>
                   {/* Links */}
                   <ul>
+                    <li>
+                      <Link to="/home" className="flex text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-gray-100 py-2">Home</Link>
+                    </li>
                     <li>
                       <Link to="/about" className="flex text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-gray-100 py-2">About</Link>
                     </li>
