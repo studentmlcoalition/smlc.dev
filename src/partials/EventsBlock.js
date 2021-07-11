@@ -19,7 +19,7 @@ function EventsBlock() {
                         {/*First event*/}
                         <div className="text-center">
                             <div className="relative inline-flex flex-col mb-4">
-                                <img src={require('../images/aispectra.png').default} width="200" height="200" alt="Testimonial 04" />
+                                <img src={require('../images/AI_Spectra_Event.PNG').default} width="200" height="200" alt="Testimonial 04" />
                             </div>
                             <blockquote className="text-xl text-gray-600 dark:text-gray-400">
                                 Workshop with AI Spectra on August 21st, 2021.
