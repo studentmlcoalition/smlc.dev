@@ -27,6 +27,9 @@ function EventsBlock() {
                             <div className="font-red-hat-display font-bold mt-2">
                                 <a className="text-teal-500 hover:underline transition duration-150 ease-in-out" href="https://aispectra.weebly.com/contact.html">Contact</a>
                             </div>
+                            <div className="font-red-hat-display font-bold mt-2">
+                                <a className="text-teal-500 hover:underline transition duration-150 ease-in-out" href="https://docs.google.com/forms/d/e/1FAIpQLSebKbbITEjw4gHz7aGUq9JufTa5CWckWdJ35w78MWlNnOlzFQ/viewform">Registration Link</a>
+                            </div>
                         </div>
                     </div>
                 </div>
