@@ -20,7 +20,7 @@ function AboutText() {
 
           {/* How it Works Section */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
-            <h2 className="h2 font-red-hat-display mb-4">How it works?</h2>
+            <h2 className="h2 font-red-hat-display mb-4">How does it work?</h2>
             <p className="text-xl text-gray-600 dark:text-gray-400">The Student Machine Learning Coalition follows a chapter-based 
             organizational structure.  Chapters serve as a hub within schools that provide anyone with fun, supportive environments 
             to learn data science - regardless of any prior experience. Chapters meet on a weekly basis to learn machine learning 

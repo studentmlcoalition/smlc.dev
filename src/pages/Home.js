@@ -12,6 +12,9 @@ import Process from '../partials/Process';
 // import FeaturesBlocks from '../partials/FeaturesBlocks';
 // import Cta from '../partials/Cta';
 import Footer from '../partials/Footer';
+import AboutTop from "../partials/AboutTop";
+import AboutTransition from "../partials/AboutTransition";
+import AboutText from "../partials/AboutText";
 
 function Home() {
   return (
@@ -30,7 +33,8 @@ function Home() {
 
         {/*  Page sections */}
         <HeroHome />
-        <Stats />
+        {/*<Stats />*/}
+        <AboutTransition />
         <Process />
 
       </main>
