@@ -10,7 +10,7 @@ function Process() {
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
             <h2 className="h2 font-red-hat-display mb-4">What We Do</h2>
-            <p className="text-xl text-gray-600 dark:text-gray-400">How SMLC can help programming beginners become proficient in machine learning and apply their skills with real-world data (visit the <Link className="underline transition duration-150 ease-in-out" to="about">about</Link> page for more info).</p>
+            <p className="text-xl text-gray-600 dark:text-gray-400">SMLC can help students of all skill levels become proficient in machine learning and apply their skills on real-world data (visit the <Link className="underline transition duration-150 ease-in-out" to="about">about</Link> page).</p>
           </div>
 
           {/* Items */}
