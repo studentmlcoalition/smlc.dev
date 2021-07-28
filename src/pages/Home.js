@@ -12,6 +12,7 @@ import Process from '../partials/Process';
 // import Cta from '../partials/Cta';
 import Footer from '../partials/Footer';
 import AboutTransition from "../partials/AboutTransition";
+import Instagram from "../partials/Instagram";
 
 function Home() {
   return (
@@ -33,6 +34,7 @@ function Home() {
         {/*<Stats />*/}
         <AboutTransition />
         <Process />
+        <Instagram />
 
       </main>
 

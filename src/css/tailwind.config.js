@@ -43,6 +43,7 @@ module.exports = {
           800: '#34399B',
           900: '#1E2156',
         },
+        //dark blue
         purple: {
           50: '#FAF5FF',
           100: '#F3E8FF',
