@@ -7,12 +7,12 @@ function PageIllustration() {
       <circle cx="209" cy="289" r="170" fill="url(#heroglow_paint1_radial)" fillOpacity=".4" />
       <defs>
         <radialGradient id="heroglow_paint0_radial" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="rotate(90 149 251) scale(315.089)">
-          <stop stopColor="#3ABAB4" />
-          <stop offset="1" stopColor="#3ABAB4" stopOpacity=".01" />
+          <stop stopColor="#00ACE6" />
+          <stop offset="1" stopColor="#00ACE6" stopOpacity=".01" />
         </radialGradient>
         <radialGradient id="heroglow_paint1_radial" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="rotate(90 -40 249) scale(133.913)">
-          <stop stopColor="#667EEA" />
-          <stop offset="1" stopColor="#667EEA" stopOpacity=".01" />
+          <stop stopColor="#1B72E8" />
+          <stop offset="1" stopColor="#1B72E8" stopOpacity=".01" />
         </radialGradient>
       </defs>
     </svg>
