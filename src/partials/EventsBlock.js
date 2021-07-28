@@ -22,7 +22,7 @@ function EventsBlock() {
                                 <img src={require('../images/AI_Spectra_Event.PNG').default} width="200" height="200" alt="Testimonial 04" />
                             </div>
                             <blockquote className="text-xl text-gray-600 dark:text-gray-400">
-                                Workshop with AI Spectra on August 21st, 2021.
+                                Workshop with AI Spectra on August 29st, 2021.
                             </blockquote>
                             <div className="font-red-hat-display font-bold mt-2">
                                 <a className="text-teal-500 hover:underline transition duration-150 ease-in-out" href="https://aispectra.weebly.com/contact.html">Contact</a>
