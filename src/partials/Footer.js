@@ -13,8 +13,8 @@ function Footer() {
                     <circle cx="400" cy="400" r="400" fill="url(#footerglow_paint0_radial)" fillOpacity=".4" />
                     <defs>
                         <radialGradient id="footerglow_paint0_radial" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="rotate(90 0 400) scale(315.089)">
-                            <stop stopColor="#3ABAB4" />
-                            <stop offset="1" stopColor="#3ABAB4" stopOpacity=".01" />
+                            <stop stopColor="#00ACE6" />
+                            <stop offset="1" stopColor="#00ACE6" stopOpacity=".01" />
                         </radialGradient>
                     </defs>
                 </svg>
@@ -27,18 +27,18 @@ function Footer() {
                 <div className="md:col-span-2 lg:col-span-3">
                     {/* Logo */}
                     <Link className="inline-block" to="/" aria-label="Cruip">
-                        <svg className="w-8 h-8" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
-                            <defs>
-                                <linearGradient x1="26%" y1="100%" x2="100%" y2="100%" id="flogo_a">
-                                    <stop stopColor="#3ABAB4" offset="0%" />
-                                    <stop stopColor="#7F9CF5" offset="100%" />
-                                </linearGradient>
-                                <linearGradient x1="26%" y1="100%" x2="100%" y2="100%" id="flogo_b">
-                                    <stop stopColor="#3ABAB4" offset="0%" />
-                                    <stop stopColor="#3ABAB4" stopOpacity="0" offset="100%" />
-                                </linearGradient>
-                            </defs>
-                        </svg>
+                        {/*<svg className="w-8 h-8" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">*/}
+                        {/*    <defs>*/}
+                        {/*        <linearGradient x1="26%" y1="100%" x2="100%" y2="100%" id="flogo_a">*/}
+                        {/*            <stop stopColor="#3ABAB4" offset="0%" />*/}
+                        {/*            <stop stopColor="#7F9CF5" offset="100%" />*/}
+                        {/*        </linearGradient>*/}
+                        {/*        <linearGradient x1="26%" y1="100%" x2="100%" y2="100%" id="flogo_b">*/}
+                        {/*            <stop stopColor="#3ABAB4" offset="0%" />*/}
+                        {/*            <stop stopColor="#3ABAB4" stopOpacity="0" offset="100%" />*/}
+                        {/*        </linearGradient>*/}
+                        {/*    </defs>*/}
+                        {/*</svg>*/}
                         <img src={require('../images/favicon.png').default} width="80" height="80" alt="Team member 05" />
 
                     </Link>
