@@ -28,12 +28,12 @@ function HeroHome() {
                   <circle cx="438" cy="240" r="240" fill="url(#piphoneill_paint1_radial)" fillOpacity=".6" />
                   <defs>
                     <radialGradient id="piphoneill_paint0_radial" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="rotate(90 -77 317) scale(189.054)">
-                      <stop stopColor="#667EEA" />
-                      <stop offset="1" stopColor="#667EEA" stopOpacity=".01" />
+                      <stop stopColor="#1995CD" />
+                      <stop offset="1" stopColor="#1995CD" stopOpacity=".01" />
                     </radialGradient>
                     <radialGradient id="piphoneill_paint1_radial" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="rotate(90 99 339) scale(189.054)">
-                      <stop stopColor="#9F7AEA" />
-                      <stop offset="1" stopColor="#9F7AEA" stopOpacity=".01" />
+                      <stop stopColor="#4199F6" />
+                      <stop offset="1" stopColor="#4199F6" stopOpacity=".01" />
                     </radialGradient>
                   </defs>
                 </svg>
