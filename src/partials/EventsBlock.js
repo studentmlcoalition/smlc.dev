@@ -22,7 +22,7 @@ function EventsBlock() {
                                 <img src={require('../images/AI_Spectra_Event.PNG').default} width="200" height="200" alt="Testimonial 04" />
                             </div>
                             <blockquote className="text-xl text-gray-600 dark:text-gray-400">
-                                Workshop with AI Spectra on August 29th, 2021.
+                                AI Spectra is hosting a workshop on August 21st, 2021.
                             </blockquote>
                             <div className="font-red-hat-display font-bold mt-2">
                                 <a className="text-teal-500 hover:underline transition duration-150 ease-in-out" href="https://aispectra.weebly.com/contact.html">Contact</a>
@@ -30,6 +30,16 @@ function EventsBlock() {
                             <div className="font-red-hat-display font-bold mt-2">
                                 <a className="text-teal-500 hover:underline transition duration-150 ease-in-out" href="https://docs.google.com/forms/d/e/1FAIpQLSebKbbITEjw4gHz7aGUq9JufTa5CWckWdJ35w78MWlNnOlzFQ/viewform">Registration Link</a>
                             </div>
+                        </div>
+
+                         {/*Second event*/}
+                         <div className="text-center">
+                            <div className="relative inline-flex flex-col mb-4">
+                                <img src={require('../images/smlcresource.png').default} width="200" height="200" alt="Testimonial 04" />
+                            </div>
+                            <blockquote className="text-xl text-gray-600 dark:text-gray-400">
+                                SMLC will be hosting a workshop on August 29th, 2021. More details coming soon. 
+                            </blockquote>
                         </div>
                     </div>
                 </div>
