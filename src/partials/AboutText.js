@@ -33,13 +33,15 @@ function AboutText() {
           {/* Does Your School Have a Chapter? */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
             <h2 className="h2 font-red-hat-display mb-4">SMLC Chapters</h2>
-            <ul>
+            <ul className="mb-6">
               <li className="text-xl text-gray-600 dark:text-gray-400">Bellarmine College Preparatory, CA </li>
               <li className="text-xl text-gray-600 dark:text-gray-400">Leland High School, CA </li>
               <li className="text-xl text-gray-600 dark:text-gray-400">Union County Magnet High School, NJ </li>
               <li className="text-xl text-gray-600 dark:text-gray-400">The Harker School - HS, CA </li>
               <li className="text-xl text-gray-600 dark:text-gray-400">University of California, San Diego, CA </li>
             </ul>
+            <iframe title="Map" src="https://www.google.com/maps/d/embed?mid=1jPqoPGmdGua6k6esdxjslTxPJaXWqF14&hl=en"
+                width="640" height="480" style={{marginLeft: "auto", marginRight: "auto"}}></iframe>
           </div>
 
           {/* Contact Us */}
