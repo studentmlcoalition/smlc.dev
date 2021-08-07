@@ -38,8 +38,14 @@ function EventsBlock() {
                                 <img src={require('../images/smlcresource.png').default} width="200" height="200" alt="Testimonial 04" />
                             </div>
                             <blockquote className="text-xl text-gray-600 dark:text-gray-400">
-                                SMLC will be hosting a workshop on August 29th, 2021. More details coming soon. 
+                                SMLC will be hosting our first workshop on August 29th, 2021. The workshop will be covering the basics of ML and Python. 
                             </blockquote>
+                            <div className="font-red-hat-display font-bold mt-2">
+                                <a className="text-teal-500 hover:underline transition duration-150 ease-in-out" href="https://forms.gle/EqbgrLhYf2soyvcF9">Workshop Registration Form</a>
+                            </div>
+                            <div className="font-red-hat-display font-bold mt-2">
+                                <a className="text-teal-500 hover:underline transition duration-150 ease-in-out" href="https://www.eventbrite.com/e/166234892037">Link to Eventbrite Signup</a>
+                            </div>
                         </div>
                     </div>
                 </div>
