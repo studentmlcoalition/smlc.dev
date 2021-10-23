@@ -19,6 +19,9 @@ function HeroHome() {
               <p className="text-xl text-gray-600 dark:text-gray-400" data-aos="fade-down" data-aos-delay="150">Welcome to SMLC! Our mission is to help anyone get involved in machine learning through courses, Kaggle competitions, and collaboration.</p>
             </div>
 
+            <iframe title="Map" src="https://www.google.com/maps/d/embed?mid=1jPqoPGmdGua6k6esdxjslTxPJaXWqF14&hl=en"
+                width="480" height="480" style={{marginLeft: "auto", marginRight: "auto"}}></iframe>
+
             {/* Mobile mockup */}
             <div className="md:col-span-5 lg:col-span-5 text-center md:text-right" data-aos="fade-up" data-aos-delay="450">
               <div className="inline-flex relative justify-center items-center">

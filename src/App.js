@@ -12,6 +12,7 @@ import { focusHandling } from 'cruip-js-toolkit';
 
 import Home from './pages/Home';
 import About from './pages/About';
+//import People from './pages/People'; Not using for now
 import Partners from './pages/Partners';
 import Resources from './pages/Resources';
 import Events from './pages/Events';

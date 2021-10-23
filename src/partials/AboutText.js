@@ -27,18 +27,22 @@ function AboutText() {
             topics from a discussion leader or collaborate on competitions. SMLC provides all chapters with 20+ lectures on the 
             fundamentals of Machine Learning as well as a fully recorded Kaggle Bootcamp course. Anyone can join a club and 
             eventually compete in even the most challenging of competitions. In Kaggle competitions, SMLC members have historically 
-            ranked well. For instance, a team of novices placed in the top 5% of the Titanic Data Set Competition. </p>
+            ranked well. For instance, a team of novices placed in the top 1% of the Titanic Data Set Competition. </p>
           </div>
 
           {/* Does Your School Have a Chapter? */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
-            <h2 className="h2 font-red-hat-display mb-4">SMLC Chapters</h2>
+            <h2 className="h2 font-red-hat-display mb-4">Schools</h2>
             <ul className="mb-6">
-              <li className="text-xl text-gray-600 dark:text-gray-400">Bellarmine College Preparatory, CA </li>
-              <li className="text-xl text-gray-600 dark:text-gray-400">Leland High School, CA </li>
-              <li className="text-xl text-gray-600 dark:text-gray-400">Union County Magnet High School, NJ </li>
-              <li className="text-xl text-gray-600 dark:text-gray-400">The Harker School - HS, CA </li>
-              <li className="text-xl text-gray-600 dark:text-gray-400">University of California, San Diego, CA </li>
+              <li className="text-xl text-gray-600 dark:text-gray-400">Bellarmine College Preparatory, CA, USA </li>
+              <li className="text-xl text-gray-600 dark:text-gray-400">Neerja Modi School, Jaipur, IND </li>
+              <li className="text-xl text-gray-600 dark:text-gray-400">St. Xavier's College, Kathmandu, NPL </li>
+              <li className="text-xl text-gray-600 dark:text-gray-400">Leland High School, CA, USA </li>
+              <li className="text-xl text-gray-600 dark:text-gray-400">Union County Magnet High School, NJ, USA </li>
+              <li className="text-xl text-gray-600 dark:text-gray-400">BASIS Silicon Valley, CA, USA </li>
+              <li className="text-xl text-gray-600 dark:text-gray-400">BASIS Ahwatukee, AZ, USA </li>
+              <li className="text-xl text-gray-600 dark:text-gray-400">The Harker School - HS, CA, USA </li>
+              <li className="text-xl text-gray-600 dark:text-gray-400">Lynbrook High School, CA </li>
             </ul>
             <iframe title="Map" src="https://www.google.com/maps/d/embed?mid=1jPqoPGmdGua6k6esdxjslTxPJaXWqF14&hl=en"
                 width="640" height="480" style={{marginLeft: "auto", marginRight: "auto"}}></iframe>
