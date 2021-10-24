@@ -48,6 +48,21 @@ function ResourcesBlock() {
                                 <a className="text-teal-500 hover:underline transition duration-150 ease-in-out" href="https://aispectra.weebly.com/what-is-ai-spectra.html">Learn more</a>
                             </div>
                         </div>
+
+                        <div className="text-center">
+                            <div className="relative inline-flex flex-col mb-4">
+                                <img src={require('../images/Street Code Academy Logo.png').default} width="200" height="200" alt="Testimonial 04" />
+                            </div>
+                            <blockquote className="text-xl text-gray-600 dark:text-gray-400">
+                                StreetCode Academy aims to bridge the digital divide, empowering communities of color to achieve their full potential by teaching and sharing the skills, mindsets, and networks they need to embrace technology and innovation. 
+                            </blockquote>
+                            <div className="font-red-hat-display font-bold mt-2">
+                                <a className="text-teal-500 hover:underline transition duration-150 ease-in-out" href="https://streetcode.org/contact/">Contact</a>
+                            </div>
+                            <div className="font-red-hat-display font-bold mt-2">
+                                <a className="text-teal-500 hover:underline transition duration-150 ease-in-out" href="https://streetcode.org/about/">Learn more</a>
+                            </div>
+                        </div>
                     </div>
 
                 </div>
