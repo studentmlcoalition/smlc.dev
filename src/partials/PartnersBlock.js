@@ -51,7 +51,7 @@ function ResourcesBlock() {
 
                         <div className="text-center">
                             <div className="relative inline-flex flex-col mb-4">
-                                <img src={require('../images/Street Code Academy Logo.png').default} width="200" height="200" alt="Testimonial 04" />
+                                <img src={require('../images/Street Code Academy Logo.PNG').default} width="200" height="200" alt="Testimonial 04" />
                             </div>
                             <blockquote className="text-xl text-gray-600 dark:text-gray-400">
                                 StreetCode Academy aims to bridge the digital divide, empowering communities of color to achieve their full potential by teaching and sharing the skills, mindsets, and networks they need to embrace technology and innovation. 
