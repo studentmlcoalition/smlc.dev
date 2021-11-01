@@ -1,5 +1,5 @@
-import React from 'react';
-import sections from '../utils/EventsData';
+import React from "react";
+import sections from "../utils/EventsData";
 
 function EventsBlock() {
   return (
@@ -16,13 +16,17 @@ function EventsBlock() {
 
           {/* Events */}
           <div>
-            {sections.map((section) => section.events.length !== 0 && (
-              <div key={section.id}>
-                <h1 className="h3 font-red-hat-display mb-8 text-center">{section.title}</h1>
-                <div className="max-w-sm mx-auto grid gap-x-8 gap-y-12 auto-rows-fr sm:grid-cols-2 lg:grid-cols-3 lg:gap-8 items-start sm:max-w-none md:max-w-2xl lg:max-w-none">
-                  {section.events.map((event) => (
-                    <a className="flex h-full" href={"events/" + event.url}>
-                      {/* <div className="rounded-lg border bg-white shadow transform border-gray-200 hover:shadow-lg hover:cursor-pointer duration-100 px-6 py-5">
+            {sections.map(
+              (section) =>
+                section.events.length !== 0 && (
+                  <div key={section.id}>
+                    <h1 className="h3 font-red-hat-display mb-8 text-center">
+                      {section.title}
+                    </h1>
+                    <div className="max-w-sm mx-auto grid gap-x-8 gap-y-12 auto-rows-fr sm:grid-cols-2 lg:grid-cols-3 lg:gap-8 items-start sm:max-w-none md:max-w-2xl lg:max-w-none">
+                      {section.events.map((event) => (
+                        <a className="flex h-full" href={"events/" + event.url}>
+                          {/* <div className="rounded-lg border bg-white shadow transform border-gray-200 hover:shadow-lg hover:cursor-pointer duration-100 px-6 py-5">
                         <div className="space-x-2 sm:space-x-4 relative flex items-center space-x-3 ">
                           <div className="block flex-shrink-0 w-24 h-24 rounded-full overflow-hidden relative lg:w-28 lg:h-28">
                             <img
@@ -49,35 +53,38 @@ function EventsBlock() {
                           </div>
                         </div>
                       </div> */}
-                      <div className="flex-grow rounded overflow-hidden transition bg-gray-50 shadow-md hover:shadow-lg">
-                        <div className="block flex-shrink-0 overflow-hidden relative lg:w-full max-h-80">
-                          <img
-                              layout="fill"
-                              src={event.photo}
-                              alt={event.title}
-                              sizes="112px"
-                            />
-                        </div>
-                        <div className="px-6 py-4">
-                          <div className="font-bold text-xl">{event.title}</div>
-                          <p className="text-gray-500 text-base font-medium mb-2">
-                            {event.date.toLocaleDateString("en-US", {
-                              month: "long",
-                              day: "numeric",
-                              year: "numeric",
-                            })}
-                          </p>
-                          <p className="text-gray-500 text-base">
-                            {event.description}
-                          </p>
-                        </div>
-                      </div>
-                    </a>
-                  ))}
-                </div>
-              </div>
-            ))}
-            
+                          <div className="flex-grow rounded overflow-hidden transition bg-gray-50 shadow-md hover:shadow-lg">
+                            <div className="block flex-shrink-0 overflow-hidden relative lg:w-full max-h-80">
+                              <img
+                                layout="fill"
+                                src={event.photo}
+                                alt={event.title}
+                                sizes="112px"
+                              />
+                            </div>
+                            <div className="px-6 py-4">
+                              <div className="font-bold text-xl">
+                                {event.title}
+                              </div>
+                              <p className="text-gray-500 text-base font-medium mb-2">
+                                {event.date.toLocaleDateString("en-US", {
+                                  month: "long",
+                                  day: "numeric",
+                                  year: "numeric",
+                                })}
+                              </p>
+                              <p className="text-gray-500 text-base">
+                                {event.description}
+                              </p>
+                            </div>
+                          </div>
+                        </a>
+                      ))}
+                    </div>
+                  </div>
+                )
+            )}
+
             {/*First event*/}
             {/* <div className="text-center">
               <div className="relative inline-flex flex-col mb-4">
