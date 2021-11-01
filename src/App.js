@@ -17,6 +17,7 @@ import Partners from './pages/Partners';
 import Resources from './pages/Resources';
 import Events from './pages/Events';
 import PageNotFound from './pages/PageNotFound';
+import IntroML from './pages/events/IntroML';
 
 function App() {
 
@@ -57,6 +58,9 @@ function App() {
       </Route>
       <Route path="/events">
         <Events />
+      </Route>
+      <Route path="/events/intro-ml">
+        <IntroML />
       </Route>
       <Route path="*">
         <PageNotFound />

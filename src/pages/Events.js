@@ -4,6 +4,11 @@ import Header from '../partials/Header';
 import PageIllustration from '../partials/PageIllustration';
 import Footer from '../partials/Footer';
 import EventsBlock from '../partials/EventsBlock';
+import {
+    Switch,
+    Route,
+} from 'react-router-dom';
+import data from '../utils/EventsData';  
 
 function Events() {
     return (
@@ -25,8 +30,18 @@ function Events() {
                 <br></br>
                 <br></br>
                 <br></br>
-                <EventsBlock />
-
+                <Switch>
+                    <Route exact path="/events">
+                        <EventsBlock />
+                    </Route>
+                    {data.map((section) => (
+                        section.events.map(event => (
+                            <Route key={event.title} path={`/events/${event.url}`}>
+                                {event.page}
+                            </Route>
+                        ))
+                    ))}
+                </Switch>
             </main>
 
             {/*  Site footer */}
