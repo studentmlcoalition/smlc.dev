@@ -29,7 +29,7 @@ function ResourcesBlock() {
                                 before starting. Make sure to scroll to the course description to access free coupons.
                             </blockquote>
                             <div className="font-red-hat-display font-bold mt-2">
-                                <a className="text-teal-500 hover:underline transition duration-150 ease-in-out" href="#0">udemy.com</a>
+                                <a className="text-teal-500 hover:underline transition duration-150 ease-in-out" href="https://www.udemy.com/course/the-complete-intro-to-machine-learning-with-python/">udemy.com</a>
                             </div>
                         </div>
 
