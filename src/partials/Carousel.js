@@ -35,33 +35,33 @@ function Carousel() {
           <div className="swiper-wrapper">
             {/* Carousel items */}
             <div className="swiper-slide max-w-lg">
-              <img className="transition-opacity duration-300" src={require('../images/lecture-1.jpg').default} width="540" height="460" alt="Carousel item 01" />
+              <img className="transition-opacity duration-300" src={require('../images/lecture-1.jpg').default} width="600" height="460" alt="Carousel item 01" />
               <div className="absolute bottom-0 right-0 p-6">
-                <p className="text-xs font-medium text-center text-white py-2 px-3 rounded-full bg-gray-900 bg-opacity-50 hover:bg-opacity-100 transition duration-150 ease-in-out" >Bellarmine Chapter Meeting</p>
+                <p className="text-xs font-medium text-center text-white py-2 px-3 rounded-full bg-gray-900 bg-opacity-50 hover:bg-opacity-100 transition duration-150 ease-in-out" >BCP Lecture</p>
               </div>
             </div>
             <div className="swiper-slide max-w-lg">
-              <img className="transition-opacity duration-300" src={require('../images/lecture-2.jpg').default} width="540" height="460" alt="Carousel item 02" />
+              <img className="transition-opacity duration-300" src={require('../images/union-meeting.jpg').default} width="600" height="460" alt="Carousel item 02" />
               <div className="absolute bottom-0 right-0 p-6">
-                <p className="text-xs font-medium text-center text-white py-2 px-3 rounded-full bg-gray-900 bg-opacity-50 hover:bg-opacity-100 transition duration-150 ease-in-out" >Bellarmine Chapter Meeting</p>
+                <p className="text-xs font-medium text-center text-white py-2 px-3 rounded-full bg-gray-900 bg-opacity-50 hover:bg-opacity-100 transition duration-150 ease-in-out" >Union County Magnet HS</p>
               </div>
             </div>
             <div className="swiper-slide max-w-lg">
-              <img className="transition-opacity duration-300" src={require('../images/lecture-3.jpg').default} width="540" height="460" alt="Carousel item 03" />
+              <img className="transition-opacity duration-300" src={require('../images/lecture-3.jpg').default} width="600" height="460" alt="Carousel item 03" />
               <div className="absolute bottom-0 right-0 p-6">
-                <p className="text-xs font-medium text-center text-white py-2 px-3 rounded-full bg-gray-900 bg-opacity-50 hover:bg-opacity-100 transition duration-150 ease-in-out" >Bellarmine Chapter Meeting</p>
+                <p className="text-xs font-medium text-center text-white py-2 px-3 rounded-full bg-gray-900 bg-opacity-50 hover:bg-opacity-100 transition duration-150 ease-in-out" >BCP Lecture</p>
               </div>
             </div>
             <div className="swiper-slide max-w-lg">
-              <img className="transition-opacity duration-300" src={require('../images/lecture-4.jpg').default} width="540" height="460" alt="Carousel item 04" />
+              <img className="transition-opacity duration-300" src={require('../images/lecture-4.jpg').default} width="600" height="460" alt="Carousel item 04" />
               <div className="absolute bottom-0 right-0 p-6">
-                <p className="text-xs font-medium text-center text-white py-2 px-3 rounded-full bg-gray-900 bg-opacity-50 hover:bg-opacity-100 transition duration-150 ease-in-out" >Bellarmine Chapter Meeting</p>
+                <p className="text-xs font-medium text-center text-white py-2 px-3 rounded-full bg-gray-900 bg-opacity-50 hover:bg-opacity-100 transition duration-150 ease-in-out" >Dr. Anoop Gupta's Talk</p>
               </div>
             </div>
             <div className="swiper-slide max-w-lg">
-              <img className="transition-opacity duration-300" src={require('../images/lecture-5.jpg').default} width="540" height="460" alt="Carousel item 05" />
+              <img className="transition-opacity duration-300" src={require('../images/lecture-5.jpg').default} width="600" height="460" alt="Carousel item 05" />
               <div className="absolute bottom-0 right-0 p-6">
-                <p className="text-xs font-medium text-center text-white py-2 px-3 rounded-full bg-gray-900 bg-opacity-50 hover:bg-opacity-100 transition duration-150 ease-in-out" >Bellarmine Chapter Meeting</p>
+                <p className="text-xs font-medium text-center text-white py-2 px-3 rounded-full bg-gray-900 bg-opacity-50 hover:bg-opacity-100 transition duration-150 ease-in-out" >Dr. Anoop Gupta's Talk</p>
               </div>
             </div>
             

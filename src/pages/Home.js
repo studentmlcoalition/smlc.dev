@@ -31,9 +31,9 @@ function Home() {
 
         {/*  Page sections */}
         <HeroHome />
-        <Carousel />
         {/*<Stats />*/}
         <AboutTransition />
+        <Carousel />
         <Process />
         <Instagram />
 

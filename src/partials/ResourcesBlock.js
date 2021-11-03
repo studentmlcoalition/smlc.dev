@@ -25,11 +25,11 @@ function ResourcesBlock() {
                                 <img src={require('../images/smlcresource.png').default} width="200" height="200" alt="Testimonial 04" />
                             </div>
                             <blockquote className="text-xl text-gray-600 dark:text-gray-400">
-                                Check out our course on Machine Learning Fundamentals completely for free! This course is optimized
-                                for efficency, but you don't need any prior knowledge before starting.
+                                Check out our course Udemy! This course is optimized for efficency, but you don't need any prior knowledge 
+                                before starting. Make sure to scroll to the course description to access free coupons.
                             </blockquote>
                             <div className="font-red-hat-display font-bold mt-2">
-                                <a className="text-teal-500 hover:underline transition duration-150 ease-in-out" href="#0">Coming Soon!</a>
+                                <a className="text-teal-500 hover:underline transition duration-150 ease-in-out" href="#0">udemy.com</a>
                             </div>
                         </div>
 
