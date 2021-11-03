@@ -105,6 +105,8 @@ button:focus,
 
         img {
             opacity: .32;
+            height: 300px;
+            object-fit: cover;
         }
 
         > div > div {
