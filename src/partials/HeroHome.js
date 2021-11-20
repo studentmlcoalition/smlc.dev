@@ -14,13 +14,18 @@ function HeroHome() {
           <div className="md:grid md:grid-cols-12 md:gap-12 lg:gap-20 items-center">
 
             {/* Content */}
-            <div className="md:col-span-7 lg:col-span-7 mb-8 md:mb-0 text-center md:text-left">
+            <div className="md:col-span-7 lg:col-span-6 mb-8 md:mb-0 text-center md:text-left">
               <h1 className="h1 lg:text-6xl mb-10 font-red-hat-display font-extrabold" data-aos="fade-down">Student Machine Learning Coalition</h1>
               <p className="text-xl text-gray-600 dark:text-gray-400" data-aos="fade-down" data-aos-delay="150">Welcome to SMLC! Our mission is to help anyone get involved in machine learning through courses, Kaggle competitions, and collaboration.</p>
             </div>
 
-            <iframe title="Map" src="https://www.google.com/maps/d/embed?mid=1jPqoPGmdGua6k6esdxjslTxPJaXWqF14&hl=en"
-                width="480" height="480" style={{marginLeft: "auto", marginRight: "auto"}}></iframe>
+            {/*<iframe title="Map" src="https://www.google.com/maps/d/embed?mid=1jPqoPGmdGua6k6esdxjslTxPJaXWqF14&hl=en"
+                width="480" height="480" style={{marginLeft: "auto", marginRight: "auto"}}></iframe> */}
+            
+            {/* Front Page Image*/}
+            <div className="md:col-span-6 lg:col-span-6 md:text-right">
+              <img src={require('../images/home-circle-top.png').default} alt="Course Front Page" />
+            </div>
 
             {/* Mobile mockup */}
             <div className="md:col-span-5 lg:col-span-5 text-center md:text-right" data-aos="fade-up" data-aos-delay="450">

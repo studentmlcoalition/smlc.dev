@@ -41,7 +41,6 @@ function AboutText() {
               <li className="text-xl text-gray-600 dark:text-gray-400">Union County Magnet High School, NJ, USA </li>
               <li className="text-xl text-gray-600 dark:text-gray-400">BASIS Silicon Valley, CA, USA </li>
               <li className="text-xl text-gray-600 dark:text-gray-400">BASIS Ahwatukee, AZ, USA </li>
-              <li className="text-xl text-gray-600 dark:text-gray-400">The Harker School - HS, CA, USA </li>
               <li className="text-xl text-gray-600 dark:text-gray-400">Lynbrook High School, CA </li>
             </ul>
             <iframe title="Map" src="https://www.google.com/maps/d/embed?mid=1jPqoPGmdGua6k6esdxjslTxPJaXWqF14&hl=en"

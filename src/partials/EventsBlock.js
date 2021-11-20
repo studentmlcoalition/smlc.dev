@@ -8,9 +8,9 @@ function EventsBlock() {
         <div className="py-12 md:py-20 border-t border-transparent dark:border-gray-800">
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-5 md:pb-10">
-            <h2 className="h2 font-red-hat-display mb-4">What We've Done</h2>
+            <h2 className="h2 font-red-hat-display mb-4">Events and Workshops</h2>
             <p className="text-xl text-gray-600 dark:text-gray-400">
-              Here is a list of the upcoming and past events (more coming soon).
+              Here is a list of the upcoming and past events (more coming soon). Note: we have removed the faces of participants in recordings.
             </p>
           </div>
 

@@ -214,10 +214,10 @@ function Header() {
               </li>
               <li>
                 <Link
-                  to="/partners"
+                  to="/course"
                   className="text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-gray-100 px-5 py-2 flex items-center transition duration-150 ease-in-out"
                 >
-                  Partners
+                  Course
                 </Link>
               </li>
               <li>
@@ -234,6 +234,14 @@ function Header() {
                   className="text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-gray-100 px-5 py-2 flex items-center transition duration-150 ease-in-out"
                 >
                   Events
+                </Link>
+              </li>
+              <li>
+                <Link
+                  to="/partners"
+                  className="text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-gray-100 px-5 py-2 flex items-center transition duration-150 ease-in-out"
+                >
+                  Partners
                 </Link>
               </li>
               {/* 1st level: hover */}

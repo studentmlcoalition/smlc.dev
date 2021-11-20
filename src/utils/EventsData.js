@@ -20,7 +20,7 @@ const events = [
     photo: workshop_dt, // Update
     title: "Decision Trees and Random Forest In-Depth",
     description: "Sign up now!",
-    date: new Date("Nov 14 2021 2:00:00 PM PDT"), // Update Date Later
+    date: new Date("Dec 5 2021 2:00:00 PM PDT"), // Update Date Later
     url: "intro-dt",
     page: DecisionTrees,
   },

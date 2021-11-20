@@ -12,6 +12,7 @@ import About from "./pages/About";
 import Partners from "./pages/Partners";
 import Resources from "./pages/Resources";
 import Events from "./pages/Events";
+import Course from "./pages/Course";
 import PageNotFound from "./pages/PageNotFound";
 import IntroML from "./pages/events/IntroML";
 
@@ -45,8 +46,8 @@ function App() {
       <Route path="/about">
         <About />
       </Route>
-      <Route path="/partners">
-        <Partners />
+      <Route path="/course">
+        <Course />
       </Route>
       <Route path="/resources">
         <Resources />
@@ -56,6 +57,9 @@ function App() {
       </Route>
       <Route path="/events/intro-ml">
         <IntroML />
+      </Route>
+      <Route path="/partners">
+        <Partners />
       </Route>
       <Route path="*">
         <PageNotFound />
