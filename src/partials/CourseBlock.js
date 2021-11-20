@@ -55,7 +55,7 @@ function CourseBlock() {
 
                     {/* Photo of student map TODO: update map to mention that stats were given by udemy*/}
                     <div className="relative inline-flex flex-col mb-20">
-                        <img src={require('../images/course-students.png').default} alt="Course Student Location Demographic Map" />
+                        <img src={require('../images/course-map.png').default} alt="Course Student Location Demographic Map" />
                     </div>
 
                     {/* Why sign up */}
