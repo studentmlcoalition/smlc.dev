@@ -8,14 +8,14 @@ function Header() {
   const mobileNav = useRef(null);
 
   // close the mobile menu on click outside
-  useEffect(() => {
-    const clickHandler = ({ target }) => {
-      if (!mobileNavOpen || mobileNav.current.contains(target)) return;
-      setMobileNavOpen(false);
-    };
-    document.addEventListener("click", clickHandler);
-    return () => document.removeEventListener("click", clickHandler);
-  });
+  // useEffect(() => {
+  //   const clickHandler = ({ target }) => {
+  //     if (!mobileNavOpen || mobileNav.current.contains(target)) return;
+  //     setMobileNavOpen(false);
+  //   };
+  //   document.addEventListener("click", clickHandler);
+  //   return () => document.removeEventListener("click", clickHandler);
+  // });
 
   // close the mobile menu if the esc key is pressed
   useEffect(() => {
@@ -287,47 +287,6 @@ function Header() {
                 className="fixed top-0 h-screen z-20 left-0 w-full max-w-sm -ml-16 overflow-scroll bg-white dark:bg-gray-900 shadow-lg no-scrollbar"
               >
                 <div className="py-6 pr-4 pl-20">
-                  {/* Logo */}
-                  <svg
-                    className="w-8 h-8"
-                    viewBox="0 0 32 32"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <defs>
-                      <linearGradient
-                        x1="26%"
-                        y1="100%"
-                        x2="100%"
-                        y2="100%"
-                        id="menulogo_a"
-                      >
-                        <stop stopColor="#3ABAB4" offset="0%" />
-                        <stop stopColor="#7F9CF5" offset="100%" />
-                      </linearGradient>
-                      <linearGradient
-                        x1="26%"
-                        y1="100%"
-                        x2="100%"
-                        y2="100%"
-                        id="menulogo_b"
-                      >
-                        <stop stopColor="#3ABAB4" offset="0%" />
-                        <stop
-                          stopColor="#3ABAB4"
-                          stopOpacity="0"
-                          offset="100%"
-                        />
-                      </linearGradient>
-                    </defs>
-                    <path
-                      d="M32 16h-8a8 8 0 10-16 0H0C0 7.163 7.163 0 16 0s16 7.163 16 16z"
-                      fill="url(#menulogo_a)"
-                    />
-                    <path
-                      d="M32 16c0 8.837-7.163 16-16 16S0 24.837 0 16h8a8 8 0 1016 0h8z"
-                      fill="url(#menulogo_b)"
-                    />
-                  </svg>
                   {/* Links */}
                   <ul>
                     <li>
@@ -360,14 +319,6 @@ function Header() {
                         className="flex text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-gray-100 py-2"
                       >
                         Events
-                      </Link>
-                    </li>
-                    <li>
-                      <Link
-                        to="/contact"
-                        className="font-medium w-full inline-flex items-center justify-center border border-transparent px-4 py-2 my-2 rounded text-white bg-teal-500 hover:bg-teal-400 transition duration-150 ease-in-out"
-                      >
-                        Request code
                       </Link>
                     </li>
                   </ul>
