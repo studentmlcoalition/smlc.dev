@@ -12,14 +12,14 @@ import workshop_dt from "../images/workshop-dt.PNG";
 const chapters = [
   {
     photo: workshop_1, // Update
-    title: "Pop-Up with Street Code Academy",
+    title: "BASIS Silicon Valley",
     description: "On the Basics of Machine Learning",
     location: "US",
     url: "basis",
   },
   {
     photo: workshop_dt, // Update
-    title: "Decision Trees and Random Forest In-Depth",
+    title: "Valley Christian",
     description: "Sign up now!",
     location: "US",
     url: "valleychristian",
@@ -27,7 +27,7 @@ const chapters = [
   },
   {
     photo: workshop_3, // Update
-    title: "Basics of Logistic Regression and Decision Trees",
+    title: "Lynbrook HS",
     description: "Recorded on Zoom.",
     location: "US",
     url: "lynbrook",
@@ -35,7 +35,7 @@ const chapters = [
   },
   {
     photo: workshop_2, // Update
-    title: "Basics of Machine Learning and Linear Regression",
+    title: "Harker",
     description: "Recorded on Zoom.",
     location: "US",
     url: "harker",
@@ -43,7 +43,7 @@ const chapters = [
   },
   {
     photo: workshop_1, // Update
-    title: "Introduction to Python and Machine Learning",
+    title: "Nepal",
     description: "Recorded on Zoom.",
     location: "INT",
     url: "nepal",
@@ -54,11 +54,11 @@ const chapters = [
 export const chapterSections = [
   {
     title: "United States",
-    chapters: chapters.filter((chapter) => chapters.location == "US"),
+    chapters: chapters.filter((chapter) => chapter.location == "US"),
   },
   {
     title: "International",
-    chapters: chapters.filter((chapter) => chapters.location == "INT"),
+    chapters: chapters.filter((chapter) => chapter.location == "INT"),
   },
 ];
 

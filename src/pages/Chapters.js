@@ -3,7 +3,7 @@ import React from "react";
 import Header from "../partials/Header";
 import PageIllustration from "../partials/PageIllustration";
 import Footer from "../partials/Footer";
-import EventsBlock from "../partials/EventsBlock";
+import ChaptersBlock from "../partials/ChaptersBlock";
 import { Switch, Route } from "react-router-dom";
 import data from "../utils/ChaptersData";
 
@@ -30,7 +30,7 @@ function Chapters() {
         <br></br>
         <Switch>
           <Route exact path="/chapters">
-            <EventsBlock />
+            <ChaptersBlock />
           </Route>
           {data.map((section) =>
             section.chapters.map((chapter) => (

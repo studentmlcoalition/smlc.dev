@@ -2,79 +2,56 @@ import React from "react";
 import chapterSections from "../utils/ChaptersData";
 
 function ChaptersBlock() {
+  console.log(chapterSections.map((section) => section.chapters.length));
   return (
     <section>
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         <div className="py-12 md:py-20 border-t border-transparent dark:border-gray-800">
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-5 md:pb-10">
-            <h2 className="h2 font-red-hat-display mb-4">Events and Workshops</h2>
+            <h2 className="h2 font-red-hat-display mb-4">Chapters</h2>
             <p className="text-xl text-gray-600 dark:text-gray-400">
-              Here is a list of the upcoming and past events (more coming soon). Note: we have removed the faces of participants in recordings.
+              SMLC is a global organization democratizing machine learning. Here are our chapters from the United States and Asia.
             </p>
+            <iframe title="Map" src="https://www.google.com/maps/d/embed?mid=1jPqoPGmdGua6k6esdxjslTxPJaXWqF14&hl=en"
+                width="640" height="480" style={{marginLeft: "auto", marginRight: "auto"}}></iframe>
           </div>
 
           {/* Events */}
           <div>
             {chapterSections.map(
               (section) =>
-                section.events.length !== 0 && (
+                section.chapters.length !== 0 && (
                   <div key={section.id}>
                     <h1 className="h3 font-red-hat-display mb-8 text-center">
-                      {/* {section.title} */}
+                      {section.title}
                     </h1>
                     <div className="max-w-sm mx-auto grid gap-x-8 gap-y-12 auto-rows-fr sm:grid-cols-2 lg:grid-cols-3 lg:gap-8 items-start sm:max-w-none md:max-w-2xl lg:max-w-none">
-                      {section.events.map((event) => (
-                        <a className="flex h-full" href={"events/" + event.url}>
-                          {/* <div className="rounded-lg border bg-white shadow transform border-gray-200 hover:shadow-lg hover:cursor-pointer duration-100 px-6 py-5">
-                        <div className="space-x-2 sm:space-x-4 relative flex items-center space-x-3 ">
-                          <div className="block flex-shrink-0 w-24 h-24 rounded-full overflow-hidden relative lg:w-28 lg:h-28">
-                            <img
-                              layout="fill"
-                              objectFit="cover"
-                              objectPosition="center center"
-                              src={event.photo}
-                              alt={event.title}
-                              placeholder="blur"
-                              sizes="112px"
-                            />
-                          </div>
-                          <div className="flex-1 min-w-0 space-y-2">
-                            <span className="" aria-hidden="true"></span>
-                            <p className="text-xl font-medium">
-                              {event.title}
-                            </p>
-                            <p className="text-gray-500 font-medium">
-                              {event.date.format("MMMM D, YYYY")}
-                            </p>
-                            <p className="text-gray-500">
-                              {event.description}
-                            </p>
-                          </div>
-                        </div>
-                      </div> */}
+                      {section.chapters.map((chapter) => (
+                        <a className="flex h-full" href={"chapters/" + chapter.url}>
+                          
                           <div className="flex-grow rounded overflow-hidden transition bg-gray-50 shadow-md hover:shadow-lg">
                             <div className="block flex-shrink-0 overflow-hidden relative lg:w-full max-h-80">
                               <img
                                 layout="fill"
-                                src={event.photo}
-                                alt={event.title}
+                                src={chapter.photo}
+                                alt={chapter.title}
                                 sizes="112px"
                               />
                             </div>
                             <div className="px-6 py-4">
                               <div className="font-bold text-xl">
-                                {event.title}
+                                {chapter.title}
                               </div>
-                              <p className="text-gray-500 text-base font-medium mb-2">
-                                {event.date.toLocaleDateString("en-US", {
+                              {/* <p className="text-gray-500 text-base font-medium mb-2">
+                                {chapter.date.toLocaleDateString("en-US", {
                                   month: "long",
                                   day: "numeric",
                                   year: "numeric",
                                 })}
-                              </p>
+                              </p> */}
                               <p className="text-gray-500 text-base">
-                                {event.description}
+                                {chapter.description}
                               </p>
                             </div>
                           </div>
@@ -123,4 +100,4 @@ function ChaptersBlock() {
   );
 }
 
-export default EventsBlock;
+export default ChaptersBlock;
