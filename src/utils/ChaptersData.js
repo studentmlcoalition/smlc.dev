@@ -3,52 +3,93 @@ import LinReg from "../pages/events/LinReg";
 import LogReg from "../pages/events/LogReg";
 import DecisionTrees from "../pages/events/DTree";
 
-import workshop_1 from "../images/workshop-1.PNG";
-import workshop_2 from "../images/workshop-2.PNG";
-import workshop_3 from "../images/workshop-3.PNG";
-import workshop_dt from "../images/workshop-dt.PNG";
-//import Saurav from "../images/photo-saurav.png";
+// Import Chapter Photos
+import basis_ahwatukee from "../images/chapter-pics/basis_ahwatukee_logo.jpg";
+import basis_sv from "../images/chapter-pics/basis_sv_logo.jpg";
+import bcp from "../images/chapter-pics/bcp_logo.png";
+import leland from "../images/chapter-pics/leland_logo.png";
+import neerja_modi from "../images/chapter-pics/neerja_modi_logo.png";
+import st_xaviers from "../images/chapter-pics/st_xaviers_kath_logo.jpg";
+import union_county_mag from "../images/chapter-pics/union_county_mag_logo.jpg";
+
+// Maybe
+import de_anza from "../images/chapter-pics/de_anza_logo.png";
+
+// Affiliated Schools
+import lynbrook from "../images/chapter-pics/lynbrook_logo.png";
+import harker from "../images/chapter-pics/harker_logo.jpg";
 
 const chapters = [
   {
-    photo: workshop_1, // Update
-    title: "BASIS Silicon Valley",
-    description: "On the Basics of Machine Learning",
+    photo: basis_ahwatukee,
+    title: "BASIS Ahwatukee",
+    description: "Pheonix, AZ",
     location: "US",
-    url: "basis",
+    url: "../../home",
   },
   {
-    photo: workshop_dt, // Update
-    title: "Valley Christian",
-    description: "Sign up now!",
+    photo: bcp,
+    title: "Bellarmine College Preparatory",
+    description: "San Jose, CA",
     location: "US",
-    url: "valleychristian",
-    page: DecisionTrees,
+    url: "../../home"
   },
   {
-    photo: workshop_3, // Update
-    title: "Lynbrook HS",
-    description: "Recorded on Zoom.",
+    photo: leland,
+    title: "Leland High School",
+    description: "San Jose, CA",
     location: "US",
-    url: "lynbrook",
-    page: LogReg,
+    url: "../../home"
   },
   {
-    photo: workshop_2, // Update
-    title: "Harker",
-    description: "Recorded on Zoom.",
+    photo: union_county_mag,
+    title: "Union County Magnet High School",
+    description: "Scotch Plains, NJ",
     location: "US",
-    url: "harker",
-    page: LinReg,
+    url: "../../home"
   },
   {
-    photo: workshop_1, // Update
-    title: "Nepal",
-    description: "Recorded on Zoom.",
-    location: "INT",
-    url: "nepal",
-    page: IntroML,
+    photo: basis_sv,
+    title: "Basis Independent Silicon Valley",
+    description: "San Jose, CA",
+    location: "US",
+    url: "../../home"
   },
+  {
+    photo: de_anza,
+    title: "De Anza Middle College",
+    description: "Cupertino, CA",
+    location: "US",
+    url: "../../home"
+  },
+  {
+    photo: st_xaviers,
+    title: "St. Xavier's College Kathmandu",
+    description: "Kathmandu, Bagmati",
+    location: "NEP",
+    url: "../../home"
+  },
+  {
+    photo: neerja_modi,
+    title: "Neerja Modi School",
+    description: "Jaipur, Rajasthan",
+    location: "IND",
+    url: "../../home"
+  },
+  {
+    photo: harker,
+    title: "The Harker School",
+    description: "San Jose, CA",
+    location: "PART",
+    url: "../../home"
+  },
+  {
+    photo: lynbrook,
+    title: "Lynbrook High School",
+    description: "San Jose, CA",
+    location: "PART",
+    url: "../../home"
+  }
 ];
 
 export const chapterSections = [
@@ -57,9 +98,17 @@ export const chapterSections = [
     chapters: chapters.filter((chapter) => chapter.location == "US"),
   },
   {
-    title: "International",
-    chapters: chapters.filter((chapter) => chapter.location == "INT"),
+    title: "Nepal",
+    chapters: chapters.filter((chapter) => chapter.location == "NEP"),
   },
+  {
+    title: "India",
+    chapters: chapters.filter((chapter) => chapter.location == "IND"),
+  },
+  {
+  title: "Partnered Schools",
+    chapters: chapters.filter((chapter) => chapter.location == "PART"),
+  }
 ];
 
 
