@@ -30,7 +30,7 @@ function AboutText() {
             ranked well. For instance, a team of novices placed in the top 1% of the Titanic Data Set Competition. </p>
           </div>
 
-          {/* Does Your School Have a Chapter? */}
+          {/* Does Your School Have a Chapter? 
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
             <h2 className="h2 font-red-hat-display mb-4">Schools</h2>
             <ul className="mb-6">
@@ -45,7 +45,7 @@ function AboutText() {
             </ul>
             <iframe title="Map" src="https://www.google.com/maps/d/embed?mid=1jPqoPGmdGua6k6esdxjslTxPJaXWqF14&hl=en"
                 width="640" height="480" style={{marginLeft: "auto", marginRight: "auto"}}></iframe>
-          </div>
+          </div> */}
 
           {/* Contact Us */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
