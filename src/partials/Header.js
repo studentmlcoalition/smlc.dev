@@ -303,6 +303,14 @@ function Header() {
                   Partners
                 </Link>
               </li>
+              <li>
+                <Link
+                  to="/chapters"
+                  className="text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-gray-100 px-5 py-2 flex items-center transition duration-150 ease-in-out"
+                >
+                  Chapters
+                </Link>
+              </li>
               {/* 1st level: hover */}
             </ul>
           </nav>
