@@ -19,7 +19,7 @@ export default function IntroML() {
               <li>2. Went through a full implementation walk through on using various visualization libraries such as Matplotlib and Seaborn to visualize and analyze a real breast cancer dataset. </li>
             </ol>
             <div className={"w-full max-w-2xl mx-auto h-96"}>
-              <Youtube id="VJ9ABFUXOME" />
+              <Youtube id="mLe61aDNWTA" />
               {/* REUPLOAD DRIVE ONTO YOUTUBE */}
             </div>
           </div>
