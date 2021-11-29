@@ -9,6 +9,7 @@ import { focusHandling } from "cruip-js-toolkit";
 import Home from "./pages/Home";
 import About from "./pages/About";
 //import People from './pages/People'; Not using for now
+import Chapters from "./pages/Chapters";
 import Partners from "./pages/Partners";
 import Resources from "./pages/Resources";
 import Events from "./pages/Events";
@@ -60,6 +61,9 @@ function App() {
       </Route>
       <Route path="/partners">
         <Partners />
+      </Route>
+      <Route path="/chapters">
+        <Chapters />
       </Route>
       <Route path="*">
         <PageNotFound />
