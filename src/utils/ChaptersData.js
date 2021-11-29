@@ -1,8 +1,3 @@
-import IntroML from "../pages/events/IntroML";
-import LinReg from "../pages/events/LinReg";
-import LogReg from "../pages/events/LogReg";
-import DecisionTrees from "../pages/events/DTree";
-
 // Import Chapter Photos
 import basis_ahwatukee from "../images/chapter-pics/basis_ahwatukee_logo.jpg";
 import basis_sv from "../images/chapter-pics/basis_sv_logo.jpg";
