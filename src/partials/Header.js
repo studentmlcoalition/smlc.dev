@@ -1,6 +1,11 @@
-import React, { useState, useRef, useEffect } from "react";
+import React, { useState, Fragment, useRef, useEffect } from "react";
 import { Link } from "react-router-dom";
-import Transition from "../utils/Transition.js";
+import { Menu, Transition } from "@headlessui/react"
+import { ChevronDownIcon } from '@heroicons/react/solid'
+
+function classNames(...classes) {
+  return classes.filter(Boolean).join(' ')
+}
 
 function Header() {
   const [mobileNavOpen, setMobileNavOpen] = useState(false);
@@ -8,14 +13,14 @@ function Header() {
   const mobileNav = useRef(null);
 
   // close the mobile menu on click outside
-  useEffect(() => {
-    const clickHandler = ({ target }) => {
-      if (!mobileNavOpen || mobileNav.current.contains(target)) return;
-      setMobileNavOpen(false);
-    };
-    document.addEventListener("click", clickHandler);
-    return () => document.removeEventListener("click", clickHandler);
-  });
+  // useEffect(() => {
+  //   const clickHandler = ({ target }) => {
+  //     if (!mobileNavOpen || mobileNav.current.contains(target)) return;
+  //     setMobileNavOpen(false);
+  //   };
+  //   document.addEventListener("click", clickHandler);
+  //   return () => document.removeEventListener("click", clickHandler);
+  // });
 
   // close the mobile menu if the esc key is pressed
   useEffect(() => {
@@ -204,20 +209,61 @@ function Header() {
                   Home
                 </Link>
               </li>
-              <li>
-                <Link
-                  to="/about"
-                  className="text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-gray-100 px-5 py-2 flex items-center transition duration-150 ease-in-out"
+              <Menu as="li" className="relative inline-block text-left">
+                <div>
+                  <Menu.Button className="text-gray-600 font-medium hover:text-gray-900 dark:text-gray-300 dark:hover:text-gray-100 px-5 py-2 flex items-center transition duration-150 ease-in-out">
+                    About 
+                    <ChevronDownIcon className="-mr-1 ml-2 h-5 w-5" aria-hidden="true" />
+                  </Menu.Button>
+                </div>
+
+                <Transition
+                  as={Fragment}
+                  enter="transition ease-out duration-100"
+                  enterFrom="transform opacity-0 scale-95"
+                  enterTo="transform opacity-100 scale-100"
+                  leave="transition ease-in duration-75"
+                  leaveFrom="transform opacity-100 scale-100"
+                  leaveTo="transform opacity-0 scale-95"
                 >
-                  About
-                </Link>
-              </li>
+                  <Menu.Items className="origin-top-right absolute left-0 ml-2 w-56 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 focus:outline-none">
+                    <div className="py-1">
+                      <Menu.Item>
+                        {({ active }) => (
+                          <a
+                            href="about"
+                            className={classNames(
+                              active ? 'bg-gray-100 text-gray-900' : 'text-gray-700',
+                              'block px-4 py-2 text-sm'
+                            )}
+                          >
+                            About Us
+                          </a>
+                        )}
+                      </Menu.Item>
+                      <Menu.Item>
+                        {({ active }) => (
+                          <a
+                            href="chapters"
+                            className={classNames(
+                              active ? 'bg-gray-100 text-gray-900' : 'text-gray-700',
+                              'block px-4 py-2 text-sm'
+                            )}
+                          >
+                            Our Chapters
+                          </a>
+                        )}
+                      </Menu.Item>
+                    </div>
+                  </Menu.Items>
+                </Transition>
+              </Menu>
               <li>
                 <Link
                   to="/course"
                   className="text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-gray-100 px-5 py-2 flex items-center transition duration-150 ease-in-out"
                 >
-                  Course
+                 Course 
                 </Link>
               </li>
               <li>
@@ -242,6 +288,14 @@ function Header() {
                   className="text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-gray-100 px-5 py-2 flex items-center transition duration-150 ease-in-out"
                 >
                   Partners
+                </Link>
+              </li>
+              <li>
+                <Link
+                  to="/chapters"
+                  className="text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-gray-100 px-5 py-2 flex items-center transition duration-150 ease-in-out"
+                >
+                  Chapters
                 </Link>
               </li>
               {/* 1st level: hover */}
@@ -287,47 +341,6 @@ function Header() {
                 className="fixed top-0 h-screen z-20 left-0 w-full max-w-sm -ml-16 overflow-scroll bg-white dark:bg-gray-900 shadow-lg no-scrollbar"
               >
                 <div className="py-6 pr-4 pl-20">
-                  {/* Logo */}
-                  <svg
-                    className="w-8 h-8"
-                    viewBox="0 0 32 32"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <defs>
-                      <linearGradient
-                        x1="26%"
-                        y1="100%"
-                        x2="100%"
-                        y2="100%"
-                        id="menulogo_a"
-                      >
-                        <stop stopColor="#3ABAB4" offset="0%" />
-                        <stop stopColor="#7F9CF5" offset="100%" />
-                      </linearGradient>
-                      <linearGradient
-                        x1="26%"
-                        y1="100%"
-                        x2="100%"
-                        y2="100%"
-                        id="menulogo_b"
-                      >
-                        <stop stopColor="#3ABAB4" offset="0%" />
-                        <stop
-                          stopColor="#3ABAB4"
-                          stopOpacity="0"
-                          offset="100%"
-                        />
-                      </linearGradient>
-                    </defs>
-                    <path
-                      d="M32 16h-8a8 8 0 10-16 0H0C0 7.163 7.163 0 16 0s16 7.163 16 16z"
-                      fill="url(#menulogo_a)"
-                    />
-                    <path
-                      d="M32 16c0 8.837-7.163 16-16 16S0 24.837 0 16h8a8 8 0 1016 0h8z"
-                      fill="url(#menulogo_b)"
-                    />
-                  </svg>
                   {/* Links */}
                   <ul>
                     <li>
@@ -360,14 +373,6 @@ function Header() {
                         className="flex text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-gray-100 py-2"
                       >
                         Events
-                      </Link>
-                    </li>
-                    <li>
-                      <Link
-                        to="/contact"
-                        className="font-medium w-full inline-flex items-center justify-center border border-transparent px-4 py-2 my-2 rounded text-white bg-teal-500 hover:bg-teal-400 transition duration-150 ease-in-out"
-                      >
-                        Request code
                       </Link>
                     </li>
                   </ul>
