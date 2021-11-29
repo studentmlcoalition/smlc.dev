@@ -26,7 +26,7 @@ function ChaptersBlock() {
                     <h1 className="h3 font-red-hat-display mb-8 text-center">
                       {section.title}
                     </h1>
-                    <div className="max-w-sm mx-auto grid gap-x-8 gap-y-12 auto-rows-fr sm:grid-cols-2 lg:grid-cols-4 lg:gap-8 items-start sm:max-w-none md:max-w-2xl lg:max-w-none pb-12">
+                    <div className="max-w-sm mx-auto grid gap-x-8 gap-y-12 auto-rows-fr sm:grid-cols-2 lg:grid-cols-3 lg:gap-8 items-start sm:max-w-none md:max-w-2xl lg:max-w-none pb-12">
                       {section.chapters.map((chapter) => (
                         <a className="flex h-full" href={"chapters/" + chapter.url}>
                           

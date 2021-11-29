@@ -90,19 +90,19 @@ const chapters = [
 export const chapterSections = [
   {
     title: "United States",
-    chapters: chapters.filter((chapter) => chapter.location == "US"),
+    chapters: chapters.filter((chapter) => chapter.location === "US"),
   },
   {
     title: "Nepal",
-    chapters: chapters.filter((chapter) => chapter.location == "NEP"),
+    chapters: chapters.filter((chapter) => chapter.location === "NEP"),
   },
   {
     title: "India",
-    chapters: chapters.filter((chapter) => chapter.location == "IND"),
+    chapters: chapters.filter((chapter) => chapter.location === "IND"),
   },
   {
   title: "Partnered Schools",
-    chapters: chapters.filter((chapter) => chapter.location == "PART"),
+    chapters: chapters.filter((chapter) => chapter.location === "PART"),
   }
 ];
 
