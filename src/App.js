@@ -10,6 +10,7 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 //import People from './pages/People'; Not using for now
 import Chapters from "./pages/Chapters";
+import Competitions from "./pages/Competitions";
 import Partners from "./pages/Partners";
 import Resources from "./pages/Resources";
 import Events from "./pages/Events";
@@ -64,6 +65,9 @@ function App() {
       </Route>
       <Route path="/chapters">
         <Chapters />
+      </Route>
+      <Route path="/competitions">
+        <Competitions />
       </Route>
       <Route path="*">
         <PageNotFound />
