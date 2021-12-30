@@ -22,6 +22,8 @@ export default function KaggleComp() {
             </ol>
             <div className={"w-full max-w-2xl mx-auto h-96"}>
               <Youtube id="ew7uFPC5bgM" />
+            </div>
+            <div className={"w-full max-w-2xl mx-auto h-96"}>
               <Youtube id="eeQDZaCZ60g" />
             </div>
           </div>
