@@ -8,11 +8,11 @@ function CompetitionsBlock() {
             <div className="py-12 md:py-20 border-t border-transparent dark:border-gray-800">
             {/* Section header */}
             <div className="max-w-3xl mx-auto text-center pb-5 md:pb-10">
-                <h2 className="h2 font-red-hat-display mb-4">Competitions</h2>
+                <h2 className="h2 font-red-hat-display mb-4">Projects</h2>
                 <p className="text-xl text-gray-600 dark:text-gray-400">
-                SMLC chapters compete in Kaggle competitions to gain real-world experience in machine learning applications. Many of these competitions
-                create tangible benefits for research and industry, as well. Our teams are self-trained and compete against PhDs and industry experts. With 
-                peer mentorship and collaboration, we've placed at the top of a few competitions. Have a look!
+                SMLC chapters compete in Kaggle competitions and present data science projects to gain experience in machine learning applications. Many of the competitions
+                create tangible benefits for research and industry, as well. Members work on independent or collaborative projects for other competitions or to help non-profits. The objectives of such projects are to solve real-world problems
+                through utilizing machine learning. 
                 </p>
             </div>
 
@@ -22,6 +22,7 @@ function CompetitionsBlock() {
                 (section) =>
                     section.competitions.length !== 0 && (
                     <div key={section.id}>
+
                         <h1 className="h3 font-red-hat-display mb-8 text-center">
                         {section.title}
                         </h1>
