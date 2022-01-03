@@ -8,7 +8,7 @@ export default function LogReg() {
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-5 md:pb-10">
             <h2 className="h2 font-red-hat-display mb-4">
-              Decision Trees and Random Forest In-Depth
+              Logistic Regression, Decision Trees and Random Forest
             </h2>
             <p className="text-xl leading-relaxed text-gray-500 uppercase font-medium mb-5">
               September 10, 2021

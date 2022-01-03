@@ -2,6 +2,7 @@ import IntroML from "../pages/events/IntroML";
 import LinReg from "../pages/events/LinReg";
 import LogReg from "../pages/events/LogReg";
 import DecisionTrees from "../pages/events/DTree";
+import KaggleComp from "../pages/events/KaggleComp";
 
 import workshop_1 from "../images/workshop-1.PNG";
 import workshop_2 from "../images/workshop-2.PNG";
@@ -15,6 +16,14 @@ const events = [
     title: "Pop-Up with Street Code Academy",
     description: "On the Basics of Machine Learning",
     date: new Date("Jan 6 2022 2:00:00 PM PDT"), // Update Date Later
+  },
+  {
+    photo: workshop_1,
+    title: "Walkthrough of Submitting to a Kaggle Machine Learning Competition",
+    description: "Recorded on Zoom.",
+    date: new Date("Dec 12 2021 3:30 PM PDT"),
+    url: "intro-KaggleComp",
+    page: KaggleComp,
   },
   {
     photo: workshop_dt, // Update
