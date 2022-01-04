@@ -8,7 +8,7 @@ function ChaptersBlock() {
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         <div className="py-12 md:py-20 border-t border-transparent dark:border-gray-800">
           {/* Section header */}
-          <div className="max-w-3xl mx-auto text-center pb-5 md:pb-10">
+          <div className="max-w-3xl mx-auto text-center">
             <h2 className="h2 font-red-hat-display mb-4">Chapters</h2>
             <p className="text-xl text-gray-600 dark:text-gray-400">
               SMLC is a global organization democratizing machine learning. Our chapters are distributed accross the United States, India, and Nepal.
@@ -18,7 +18,7 @@ function ChaptersBlock() {
           </div>
 
           {/* Events */}
-          <div>
+          <div className="mt-5 md:mt-10">
             {chapterSections.map(
               (section) =>
                 section.chapters.length !== 0 && (

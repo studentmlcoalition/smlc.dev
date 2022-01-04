@@ -20,7 +20,7 @@ function CourseBlock() {
                     <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
                         {/*<h2 className="h2 font-red-hat-display mb-4">The Complete Intro to Machine Learning with Python</h2>*/}
                         <p className="text-xl text-gray-600 dark:text-gray-400">
-                            We are excited to announce the launch of our introductory ML course, which is now posted on Udemy! Learn about
+                            We are excited to announce the launch of our introductory ML course (in partnership with Code4Tomorrow), which is now posted on Udemy! Learn about
                             everything from the basics of Python to the nuances of neural networks. Plus... you can get it for free. Scroll down for more!
                         </p>
 
@@ -96,7 +96,7 @@ function CourseBlock() {
                         <p className="md:pb-4">Not convinced yet? By taking our course, you'll also have access to sample code for all major supervised machine learning models. Use them how you please!</p>
                         <p className="md:pb-4">Start your data science journey today with The Complete Intro to Machine Learning with Python.</p>
 
-                        <h3 className="max-w-3xl mx-auto text-center pb-12 md:pb-4 h3 font-red-hat-display">Get it for Free</h3>
+                        <h3 className="max-w-3xl mx-auto text-center pb-12 md:pb-4 h3 font-red-hat-display mt-4">Get it for Free</h3>
                         <p className="md:pb-4">Udemy forces all courses longer than 2 hours to charge at least $20 in enrollment fees, however we believe education should be accessible. If you'd like to get this course without any cost, please return during each of the following days and use the provided coupon format. Sorry for the inconvenience, but this is the only way we can get around Udemy's rule.</p>
                         <ul className="list-inside list-disc md:pb-4">
                             <li>During the first 3 days of the month (1-3), enter "SMLCCOURSE" followed by the month (eg. "01" for January and "11" for November) followed by "1" here is an example for a coupon during the first three days of December: "SMLCCOURSE121"</li>

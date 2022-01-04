@@ -20,7 +20,7 @@ export default function KaggleComp() {
               <li>3. Explained how submitting to a Kaggle competition works and best tips and practices for competitions</li>
               <li>4. All attendees were able to submit to their first Kaggle competition and achieve a good score!</li>
             </ol>
-            <div className={"w-full max-w-2xl mx-auto h-96"}>
+            <div className={"w-full max-w-2xl mx-auto h-96 mb-5"}>
               <Youtube id="ew7uFPC5bgM" />
             </div>
             <div className={"w-full max-w-2xl mx-auto h-96"}>

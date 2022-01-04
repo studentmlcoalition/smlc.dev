@@ -19,7 +19,7 @@ function EventsBlock() {
             {sections.map(
               (section) =>
                 section.events.length !== 0 && (
-                  <div key={section.id}>
+                  <div key={section.id} className="mt-5 md:mt-10">
                     <h1 className="h3 font-red-hat-display mb-8 text-center">
                       {section.title}
                     </h1>
