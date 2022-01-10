@@ -29,9 +29,8 @@ export default function Connectx() {
             <h4 className="text-lg mb-8">Get a certain number of checkers in a row horizontally, vertically, or diagonally on the game board before the opponent</h4>
             <h3 className="h4 mb-2"><u>Current Results</u></h3>
             <ol className="text-lg mb-8">
-              <li>Rank: _</li>
-              <li>Score: _</li>
-              <li>Top _%</li>
+              <li>Rank: (in progress)</li>
+              <li>Score: (in progress)</li>
             </ol>
 
 

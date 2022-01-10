@@ -38,18 +38,18 @@ function CourseBlock() {
                     <div className="grid grid-cols-2 gap-4 lg:gap-10 md:grid-cols-3 text-center md:pb-8" data-aos-id-stats>
                         {/* 1st item */}
                         <div className="bg-white dark:bg-gray-800 py-8 px-1 shadow-2xl" data-aos="fade-down" data-aos-anchor="[data-aos-id-stats]">
-                            <div className="font-red-hat-display text-3xl font-extrabold tracking-tighter mb-1">20,362</div>
+                            <div className="font-red-hat-display text-3xl font-extrabold tracking-tighter mb-1">24,384</div>
                             <div className="text-gray-600 dark:text-gray-400">Students Enrolled</div>
                         </div>
                         {/* 2nd item */}
                         <div className="bg-white dark:bg-gray-800 py-8 px-1 shadow-2xl" data-aos="fade-down" data-aos-anchor="[data-aos-id-stats]" data-aos-delay="100">
-                            <div className="font-red-hat-display text-3xl font-extrabold tracking-tighter mb-1">164</div>
+                            <div className="font-red-hat-display text-3xl font-extrabold tracking-tighter mb-1">167</div>
                             <div className="text-gray-600 dark:text-gray-400">Countries</div>
                         </div>
                         {/* 3rd item */}
                         <div className="bg-white dark:bg-gray-800 py-8 px-1 shadow-2xl" data-aos="fade-down" data-aos-anchor="[data-aos-id-stats]" data-aos-delay="200">
-                            <div className="font-red-hat-display text-3xl font-extrabold tracking-tighter mb-1">36,033</div>
-                            <div className="text-gray-600 dark:text-gray-400">Minutes of Watched</div>
+                            <div className="font-red-hat-display text-3xl font-extrabold tracking-tighter mb-1">49,033</div>
+                            <div className="text-gray-600 dark:text-gray-400">Minutes Watched</div>
                         </div>
                     </div>
 

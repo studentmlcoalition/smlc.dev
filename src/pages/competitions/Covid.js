@@ -26,12 +26,13 @@ export default function Covid() {
               </a>
             </div>   
             <h3 className="h4 mb-2"><u>Task</u></h3>
-            <h4 className="text-lg mb-8">Create a model that correctly identifies and localizes COVID-19 abnormalities on chest radiographs, categorizing them as negative or atypical for COVID-19</h4>
+            <h4 className="text-lg mb-8">Create a model that correctly identifies and localizes COVID-19 abnormalities on chest radiographs, categorizing them as negative or atypical for COVID-19. This was conducted as part of an online Kaggle Competition.</h4>
             <h3 className="h4 mb-2"><u>Current Results</u></h3>
             <ol className="text-lg mb-8">
-              <li>Rank: _</li>
-              <li>Score: _</li>
-              <li>Top _%</li>
+              <li className="mb-8">The goal of this project was to create 2 models for the diagnosis of pneumonia in the lungs and Covid-19 infection. Given x-ray images of patients’ lungs, one model classified the types of infection, while the other highlighted locations in the image (“bounding boxes”) where infection was found. In individual teams, we used state-of-the-art models such as VGG16 and YOLO for image classification and bounding box definition.</li>
+              <a href="https://www.kaggle.com/nathankang/covid-competition-submission" className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+                  To learn more, check out our notebook!
+              </a>
             </ol>
 
 

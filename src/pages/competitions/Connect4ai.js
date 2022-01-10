@@ -12,9 +12,9 @@ export default function Connect4ai() {
             <h2 className="h2 font-red-hat-display mb-4">
               Connect4 AI
             </h2>
-            <p className="text-xl leading-relaxed text-gray-500 uppercase font-medium mb-5">
+            {/*<p className="text-xl leading-relaxed text-gray-500 uppercase font-medium mb-5">
               Completed by Nathan Kang
-            </p> 
+            </p>*/}
             <div className="relative inline-flex w-50 h-50 rounded-full overflow-hidden relative shadow-md transition hover:shadow-lg">
               <a href="https://www.kaggle.com/c/titanic">
                 <ReactRoundedImage

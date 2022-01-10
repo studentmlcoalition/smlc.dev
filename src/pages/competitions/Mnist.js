@@ -29,9 +29,10 @@ export default function Mnist() {
             <h4 className="text-lg mb-8">Create a model that correctly identifies digits from MNIST, a dataset of tens of thousands of handwritten images</h4>
             <h3 className="h4 mb-2"><u>Current Results</u></h3>
             <ol className="text-lg mb-8">
-              <li>Rank: _</li>
-              <li>Score: _</li>
-              <li>Top _%</li>
+              <li className="mb-8">The goal of the project was to create a classification model to read handwritten numbers from images. The data included 28,000 images of handwritten digits. For this competition, we split into teams to create various classification models such as random forest, K-Nearest Neighbors, and CNNs. We ultimately achieved a 97.7% accuracy!</li>
+              <a href="https://www.kaggle.com/michaellutz/eda-data-augmentation" className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+                  To learn more, check out our notebook!
+              </a>
             </ol>
 
 
