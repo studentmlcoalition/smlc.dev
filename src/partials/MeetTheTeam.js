@@ -16,7 +16,7 @@ function ResourcesBlock() {
 
                         <div className="text-center">
                             <div className="relative inline-flex flex-col mb-4">
-                                <img class="h-48 w-48 object-cover" src={require('../images/photo-michael.jpg').default} alt="Picture of Michael" />
+                                <img class="h-48 w-48 object-cover" src={require('../images/photo-michael.jpg').default} alt="Michael" />
                             </div>
                             <blockquote className="text-xl text-gray-600 dark:text-gray-400">
                                 Michael Lutz
@@ -28,7 +28,7 @@ function ResourcesBlock() {
 
                         <div className="text-center">
                             <div className="relative inline-flex flex-col mb-4">
-                                <img class="h-48 w-48 object-cover" src={require('../images/photo-arjun.jpeg').default} alt="Picture of Arjun" />
+                                <img class="h-48 w-48 object-cover" src={require('../images/photo-arjun.jpeg').default} alt="Arjun" />
                             </div>
                             <blockquote className="text-xl text-gray-600 dark:text-gray-400">
                                 Arjun Rajaram
@@ -40,7 +40,7 @@ function ResourcesBlock() {
 
                         <div className="text-center">
                             <div className="relative inline-flex flex-col mb-4">
-                                <img class="h-48 w-48 object-cover" src={require('../images/photo-anousha.jpg').default} alt="Picture of Anousha" />
+                                <img class="h-48 w-48 object-cover" src={require('../images/photo-anousha.jpg').default} alt="Anousha" />
                             </div>
                             <blockquote className="text-xl text-gray-600 dark:text-gray-400">
                                 Anousha Athreya
@@ -52,7 +52,7 @@ function ResourcesBlock() {
 
                         <div className="text-center">
                             <div className="relative inline-flex flex-col mb-4">
-                                <img class="h-48 w-48 object-cover" src={require('../images/photo-joseph.png').default} alt="Picture of Joseph" />
+                                <img class="h-48 w-48 object-cover" src={require('../images/photo-joseph.png').default} alt="Joseph" />
                             </div>
                             <blockquote className="text-xl text-gray-600 dark:text-gray-400">
                                 Joseph Thomas
@@ -64,7 +64,7 @@ function ResourcesBlock() {
 
                         <div className="text-center">
                             <div className="relative inline-flex flex-col mb-4">
-                                <img class="h-48 w-48 object-cover" src={require('../images/photo-nathank.jpg').default} alt="Picture of Nathan K" />
+                                <img class="h-48 w-48 object-cover" src={require('../images/photo-nathank.jpg').default} alt="Nathan K" />
                             </div>
                             <blockquote className="text-xl text-gray-600 dark:text-gray-400">
                                 Nathan Kang
@@ -76,7 +76,7 @@ function ResourcesBlock() {
 
                         <div className="text-center">
                             <div className="relative inline-flex flex-col mb-4">
-                                <img class="h-48 w-48 object-cover" src={require('../images/photo-sanjana.jpg').default} alt="Picture of Sanjana" />
+                                <img class="h-48 w-48 object-cover" src={require('../images/photo-sanjana.jpg').default} alt="Sanjana" />
                             </div>
                             <blockquote className="text-xl text-gray-600 dark:text-gray-400">
                                 Sanjana Gadaginmath
@@ -88,7 +88,7 @@ function ResourcesBlock() {
 
                         <div className="text-center">
                             <div className="relative inline-flex flex-col mb-4">
-                                <img class="h-48 w-48 object-cover" src={require('../images/photo-nathan.png').default} alt="Picture of Nathan G" />
+                                <img class="h-48 w-48 object-cover" src={require('../images/photo-nathan.png').default} alt="Nathan G" />
                             </div>
                             <blockquote className="text-xl text-gray-600 dark:text-gray-400">
                                 Nathan Gong
@@ -100,7 +100,7 @@ function ResourcesBlock() {
 
                         <div className="text-center">
                             <div className="relative inline-flex flex-col mb-4">
-                                <img class="h-48 w-48 object-cover" src={require('../images/photo-saurav.png').default} alt="PIcture of Saurav" />
+                                <img class="h-48 w-48 object-cover" src={require('../images/photo-saurav.png').default} alt="Saurav" />
                             </div>
                             <blockquote className="text-xl text-gray-600 dark:text-gray-400">
                                 Saurav Kumar
@@ -112,7 +112,7 @@ function ResourcesBlock() {
 
                         <div className="text-center">
                             <div className="relative inline-flex flex-col mb-4">
-                                <img class="h-48 w-48 object-cover" src={require('../images/photo-shaunak.jpg').default} alt="Picture of Shaunak" />
+                                <img class="h-48 w-48 object-cover" src={require('../images/photo-shaunak.jpg').default} alt="Shaunak" />
                             </div>
                             <blockquote className="text-xl text-gray-600 dark:text-gray-400">
                                 Shaunak Warty
