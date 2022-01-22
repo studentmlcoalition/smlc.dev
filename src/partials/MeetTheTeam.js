@@ -8,7 +8,7 @@ function ResourcesBlock() {
 
                     {/* Section header */}
                     <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
-                        <h2 className="h2 font-red-hat-display mb-4">Meet the Team!</h2>
+                        <h2 className="h2 font-red-hat-display mb-4">Meet Our Leadership!</h2>
                     </div>
 
                     {/* People */}
@@ -16,7 +16,7 @@ function ResourcesBlock() {
 
                         <div className="text-center">
                             <div className="relative inline-flex flex-col mb-4">
-                                <img src={require('../images/photo-michael.jpg').default} width="200" height="200" alt="Testimonial 04" />
+                                <img class="h-48 w-48 object-cover" src={require('../images/photo-michael.jpg').default} alt="Picture of Michael" />
                             </div>
                             <blockquote className="text-xl text-gray-600 dark:text-gray-400">
                                 Michael Lutz
@@ -28,31 +28,7 @@ function ResourcesBlock() {
 
                         <div className="text-center">
                             <div className="relative inline-flex flex-col mb-4">
-                                <img src={require('../images/photo-joseph.png').default} width="200" height="200" alt="Testimonial 04" />
-                            </div>
-                            <blockquote className="text-xl text-gray-600 dark:text-gray-400">
-                                joseph Thomas
-                            </blockquote>
-                            <blockquote className="text-xl text-blue-600 dark:text-gray-400">
-                                Resources Director
-                            </blockquote>
-                        </div>
-
-                        <div className="text-center">
-                            <div className="relative inline-flex flex-col mb-4">
-                                <img src={require('../images/photo-nathank.jpg').default} width="200" height="200" alt="Testimonial 04" />
-                            </div>
-                            <blockquote className="text-xl text-gray-600 dark:text-gray-400">
-                                Nathan Kang
-                            </blockquote>
-                            <blockquote className="text-xl text-blue-600 dark:text-gray-400">
-                                Competitions Director
-                            </blockquote>
-                        </div>
-
-                        <div className="text-center">
-                            <div className="relative inline-flex flex-col mb-4">
-                                <img src={require('../images/photo-arjun.jpeg').default} width="200" height="200" alt="Testimonial 04" />
+                                <img class="h-48 w-48 object-cover" src={require('../images/photo-arjun.jpeg').default} alt="Picture of Arjun" />
                             </div>
                             <blockquote className="text-xl text-gray-600 dark:text-gray-400">
                                 Arjun Rajaram
@@ -64,7 +40,55 @@ function ResourcesBlock() {
 
                         <div className="text-center">
                             <div className="relative inline-flex flex-col mb-4">
-                                <img src={require('../images/photo-nathan.png').default} width="200" height="200" alt="Testimonial 04" />
+                                <img class="h-48 w-48 object-cover" src={require('../images/photo-anousha.jpg').default} alt="Picture of Anousha" />
+                            </div>
+                            <blockquote className="text-xl text-gray-600 dark:text-gray-400">
+                                Anousha Athreya
+                            </blockquote>
+                            <blockquote className="text-xl text-blue-600 dark:text-gray-400">
+                                Partnership Director
+                            </blockquote>
+                        </div>
+
+                        <div className="text-center">
+                            <div className="relative inline-flex flex-col mb-4">
+                                <img class="h-48 w-48 object-cover" src={require('../images/photo-joseph.png').default} alt="Picture of Joseph" />
+                            </div>
+                            <blockquote className="text-xl text-gray-600 dark:text-gray-400">
+                                Joseph Thomas
+                            </blockquote>
+                            <blockquote className="text-xl text-blue-600 dark:text-gray-400">
+                                Resources Director
+                            </blockquote>
+                        </div>
+
+                        <div className="text-center">
+                            <div className="relative inline-flex flex-col mb-4">
+                                <img class="h-48 w-48 object-cover" src={require('../images/photo-nathank.jpg').default} alt="Picture of Nathan K" />
+                            </div>
+                            <blockquote className="text-xl text-gray-600 dark:text-gray-400">
+                                Nathan Kang
+                            </blockquote>
+                            <blockquote className="text-xl text-blue-600 dark:text-gray-400">
+                                Competitions Director
+                            </blockquote>
+                        </div>
+
+                        <div className="text-center">
+                            <div className="relative inline-flex flex-col mb-4">
+                                <img class="h-48 w-48 object-cover" src={require('../images/photo-sanjana.jpg').default} alt="Picture of Sanjana" />
+                            </div>
+                            <blockquote className="text-xl text-gray-600 dark:text-gray-400">
+                                Sanjana Gadaginmath
+                            </blockquote>
+                            <blockquote className="text-xl text-blue-600 dark:text-gray-400">
+                                Public Relations Director
+                            </blockquote>
+                        </div>
+
+                        <div className="text-center">
+                            <div className="relative inline-flex flex-col mb-4">
+                                <img class="h-48 w-48 object-cover" src={require('../images/photo-nathan.png').default} alt="Picture of Nathan G" />
                             </div>
                             <blockquote className="text-xl text-gray-600 dark:text-gray-400">
                                 Nathan Gong
@@ -76,7 +100,7 @@ function ResourcesBlock() {
 
                         <div className="text-center">
                             <div className="relative inline-flex flex-col mb-4">
-                                <img src={require('../images/photo-saurav.png').default} width="200" height="200" alt="Testimonial 04" />
+                                <img class="h-48 w-48 object-cover" src={require('../images/photo-saurav.png').default} alt="PIcture of Saurav" />
                             </div>
                             <blockquote className="text-xl text-gray-600 dark:text-gray-400">
                                 Saurav Kumar
@@ -88,7 +112,7 @@ function ResourcesBlock() {
 
                         <div className="text-center">
                             <div className="relative inline-flex flex-col mb-4">
-                                <img src={require('../images/photo-shaunak.jpg').default} width="200" height="200" alt="Testimonial 04" />
+                                <img class="h-48 w-48 object-cover" src={require('../images/photo-shaunak.jpg').default} alt="Picture of Shaunak" />
                             </div>
                             <blockquote className="text-xl text-gray-600 dark:text-gray-400">
                                 Shaunak Warty

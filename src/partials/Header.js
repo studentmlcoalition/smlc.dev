@@ -244,13 +244,26 @@ function Header() {
                       <Menu.Item>
                         {({ active }) => (
                           <a
+                            href="people"
+                            className={classNames(
+                              active ? 'bg-gray-100 text-gray-900' : 'text-gray-700',
+                              'block px-4 py-2 text-sm'
+                            )}
+                          >
+                            Leadership
+                          </a>
+                        )}
+                      </Menu.Item>
+                      <Menu.Item>
+                        {({ active }) => (
+                          <a
                             href="chapters"
                             className={classNames(
                               active ? 'bg-gray-100 text-gray-900' : 'text-gray-700',
                               'block px-4 py-2 text-sm'
                             )}
                           >
-                            Our Chapters
+                            Chapters
                           </a>
                         )}
                       </Menu.Item>
@@ -263,7 +276,7 @@ function Header() {
                               'block px-4 py-2 text-sm'
                             )}
                           >
-                            Our Partners
+                            Partners
                           </a>
                         )}
                       </Menu.Item>
@@ -327,6 +340,14 @@ function Header() {
                   className="text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-gray-100 px-5 py-2 flex items-center transition duration-150 ease-in-out"
                 >
                   Projects
+                </Link>
+              </li>
+              <li>
+                <Link
+                  to="/course"
+                  className="text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-gray-100 px-5 py-2 flex items-center transition duration-150 ease-in-out"
+                >
+                  Course
                 </Link>
               </li>
               <li>
