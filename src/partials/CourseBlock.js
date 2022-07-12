@@ -97,11 +97,14 @@ function CourseBlock() {
                         <p className="md:pb-4">Start your data science journey today with The Complete Intro to Machine Learning with Python.</p>
 
                         <h3 className="max-w-3xl mx-auto text-center pb-12 md:pb-4 h3 font-red-hat-display mt-4">Get it for Free</h3>
-                        <p className="md:pb-4">Udemy forces all courses longer than 2 hours to charge at least $20 in enrollment fees, however we believe education should be accessible. If you'd like to get this course without any cost, please return during each of the following days and use the provided coupon format. Sorry for the inconvenience, but this is the only way we can get around Udemy's rule.</p>
+                        <p className="md:pb-4">Udemy forces all courses longer than 2 hours to charge at least $20 in enrollment fees, however we believe education should be accessible. If you'd like to get this course without any cost, please use one of the coupons below before it expires. Sorry for the inconvenience, but this is the only way we can get around Udemy's rule.</p>
                         <ul className="list-inside list-disc md:pb-4">
-                            <li>During the first 3 days of the month (1-3), enter "SMLCCOURSE" followed by the month (eg. "01" for January and "11" for November) followed by "1" here is an example for a coupon during the first three days of December: "SMLCCOURSE121"</li>
-                            <li>For days 10-13 of the month, enter "SMLCCOURSE" followed by the month (eg. "01" for January and "11" for November) followed by "2" here is an example for December: "SMLCCOURSE122"</li>
-                            <li>For days 20-23 of the month, enter "SMLCCOURSE" followed by the month (eg. "01" for January and "11" for November) followed by "1" here is an example for December: "SMLCCOURSE123"</li>
+                            <li>
+                                Click <a style = {{color: 'blue'}} href = "https://www.udemy.com/course/the-complete-intro-to-machine-learning-with-python/?couponCode=2F2A4B2B3727CB55FB82">here</a> to use a coupon that expires on 07/28/22
+                            </li>
+                            <li>
+                                Click <a style = {{color: 'blue'}} href = "https://www.udemy.com/course/the-complete-intro-to-machine-learning-with-python/?couponCode=7025E27BAC100A0E2B73">here</a> to use a coupon that expires on 08/11/22
+                            </li>
                         </ul>
                     </div>
                 </div>
