@@ -16,111 +16,76 @@ function ResourcesBlock() {
 
                         <div className="text-center">
                             <div className="relative inline-flex flex-col mb-4">
-                                <img class="h-48 w-48 object-cover" src={require('../images/photo-michael.jpg').default} alt="Michael" />
+                                <img class="h-48 w-48 object-cover" src={require('../images/photo-michael.jpg').default} alt="Joseph" />
                             </div>
                             <blockquote className="text-xl text-gray-600 dark:text-gray-400">
                                 Michael Lutz
                             </blockquote>
                             <blockquote className="text-xl text-blue-600 dark:text-gray-400">
-                                Founder and President
+                                Founder
                             </blockquote>
                         </div>
 
                         <div className="text-center">
                             <div className="relative inline-flex flex-col mb-4">
-                                <img class="h-48 w-48 object-cover" src={require('../images/photo-arjun.jpeg').default} alt="Arjun" />
-                            </div>
-                            <blockquote className="text-xl text-gray-600 dark:text-gray-400">
-                                Arjun Rajaram
-                            </blockquote>
-                            <blockquote className="text-xl text-blue-600 dark:text-gray-400">
-                                Events and Operations Director
-                            </blockquote>
-                        </div>
-
-                        <div className="text-center">
-                            <div className="relative inline-flex flex-col mb-4">
-                                <img class="h-48 w-48 object-cover" src={require('../images/photo-anousha.jpg').default} alt="Anousha" />
-                            </div>
-                            <blockquote className="text-xl text-gray-600 dark:text-gray-400">
-                                Anousha Athreya
-                            </blockquote>
-                            <blockquote className="text-xl text-blue-600 dark:text-gray-400">
-                                Partnership Director
-                            </blockquote>
-                        </div>
-
-                        <div className="text-center">
-                            <div className="relative inline-flex flex-col mb-4">
-                                <img class="h-48 w-48 object-cover" src={require('../images/photo-joseph.png').default} alt="Joseph" />
+                                <img class="h-48 w-48 object-cover" src={require('../images/photo-joseph.jpeg').default} alt="Arjun" />
                             </div>
                             <blockquote className="text-xl text-gray-600 dark:text-gray-400">
                                 Joseph Thomas
                             </blockquote>
                             <blockquote className="text-xl text-blue-600 dark:text-gray-400">
-                                Resources Director
+                                Co-President
                             </blockquote>
                         </div>
 
                         <div className="text-center">
                             <div className="relative inline-flex flex-col mb-4">
-                                <img class="h-48 w-48 object-cover" src={require('../images/photo-nathank.jpg').default} alt="Nathan K" />
-                            </div>
-                            <blockquote className="text-xl text-gray-600 dark:text-gray-400">
-                                Nathan Kang
-                            </blockquote>
-                            <blockquote className="text-xl text-blue-600 dark:text-gray-400">
-                                Competitions Director
-                            </blockquote>
-                        </div>
-
-                        <div className="text-center">
-                            <div className="relative inline-flex flex-col mb-4">
-                                <img class="h-48 w-48 object-cover" src={require('../images/photo-sanjana.jpg').default} alt="Sanjana" />
+                                <img class="h-48 w-48 object-cover" src={require('../images/photo-sanjana.jpg').default} alt="Anousha" />
                             </div>
                             <blockquote className="text-xl text-gray-600 dark:text-gray-400">
                                 Sanjana Gadaginmath
                             </blockquote>
                             <blockquote className="text-xl text-blue-600 dark:text-gray-400">
-                                Public Relations Director
+                                Co-President
                             </blockquote>
                         </div>
 
                         <div className="text-center">
                             <div className="relative inline-flex flex-col mb-4">
-                                <img class="h-48 w-48 object-cover" src={require('../images/photo-nathan.png').default} alt="Nathan G" />
+                                <img class="h-48 w-48 object-cover" src={require('../images/photo-aswin.jpeg').default} alt="Anousha" />
                             </div>
                             <blockquote className="text-xl text-gray-600 dark:text-gray-400">
-                                Nathan Gong
+                                Aswin Surya
                             </blockquote>
                             <blockquote className="text-xl text-blue-600 dark:text-gray-400">
-                                Web-Development Co-Director
+                                Resource Director
                             </blockquote>
                         </div>
 
                         <div className="text-center">
                             <div className="relative inline-flex flex-col mb-4">
-                                <img class="h-48 w-48 object-cover" src={require('../images/photo-saurav.png').default} alt="Saurav" />
+                                <img class="h-48 w-48 object-cover" src={require('../images/photo-rohit.jpg').default} alt="Anousha" />
                             </div>
                             <blockquote className="text-xl text-gray-600 dark:text-gray-400">
-                                Saurav Kumar
+                                Rohit Vakkalagadda
                             </blockquote>
                             <blockquote className="text-xl text-blue-600 dark:text-gray-400">
-                                Web-Development Co-Director
+                                Outreach Director
                             </blockquote>
                         </div>
 
                         <div className="text-center">
                             <div className="relative inline-flex flex-col mb-4">
-                                <img class="h-48 w-48 object-cover" src={require('../images/photo-shaunak.jpg').default} alt="Shaunak" />
+                                <img class="h-48 w-48 object-cover" src={require('../images/photo-hayden.jpeg').default} alt="Anousha" />
                             </div>
                             <blockquote className="text-xl text-gray-600 dark:text-gray-400">
-                                Shaunak Warty
+                                Hayden Boone
                             </blockquote>
                             <blockquote className="text-xl text-blue-600 dark:text-gray-400">
-                                Web-Development Co-Director
+                                Internal Communications Director
                             </blockquote>
                         </div>
+
                     
                     </div>
 
