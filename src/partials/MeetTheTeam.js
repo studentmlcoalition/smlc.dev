@@ -19,7 +19,7 @@ function ResourcesBlock() {
                 <img
                   class="h-48 w-48 object-cover"
                   src={require("../images/photo-aswin.jpeg").default}
-                  alt="Anousha"
+                  alt="Aswin Surya"
                 />
               </div>
               <blockquote className="text-xl text-gray-600 dark:text-gray-400">
@@ -35,7 +35,7 @@ function ResourcesBlock() {
                 <img
                   class="h-48 w-48 object-cover"
                   src={require("../images/photo-aadi.jpg").default}
-                  alt="Aadi"
+                  alt="Aadi Chauhan"
                 />
               </div>
               <blockquote className="text-xl text-gray-600 dark:text-gray-400">
@@ -51,7 +51,7 @@ function ResourcesBlock() {
                 <img
                   class="h-48 w-48 object-cover"
                   src={require("../images/photo-abhay.jpeg").default}
-                  alt="Aadi"
+                  alt="Abhay Pokhriyal"
                 />
               </div>
               <blockquote className="text-xl text-gray-600 dark:text-gray-400">
@@ -67,7 +67,7 @@ function ResourcesBlock() {
                 <img
                   class="h-48 w-48 object-cover"
                   src={require("../images/photo-rudransh.jpeg").default}
-                  alt="Aadi"
+                  alt="Rudransh Singh"
                 />
               </div>
               <blockquote className="text-xl text-gray-600 dark:text-gray-400">
@@ -83,7 +83,7 @@ function ResourcesBlock() {
                 <img
                   class="h-48 w-48 object-cover"
                   src={require("../images/photo-kevin.jpeg").default}
-                  alt="Aadi"
+                  alt="Kevin Lu"
                 />
               </div>
               <blockquote className="text-xl text-gray-600 dark:text-gray-400">
@@ -99,7 +99,7 @@ function ResourcesBlock() {
                 <img
                   class="h-48 w-48 object-cover"
                   src={require("../images/photo-aarush.jpeg").default}
-                  alt="Aadi"
+                  alt="Aarush Gupta"
                 />
               </div>
               <blockquote className="text-xl text-gray-600 dark:text-gray-400">
@@ -115,7 +115,7 @@ function ResourcesBlock() {
                 <img
                   class="h-48 w-48 object-cover"
                   src={require("../images/photo-matthew.jpeg").default}
-                  alt="Aadi"
+                  alt="Matthew Bannon"
                 />
               </div>
               <blockquote className="text-xl text-gray-600 dark:text-gray-400">
@@ -139,14 +139,14 @@ function ResourcesBlock() {
                 <img
                   class="h-48 w-48 object-cover"
                   src={require("../images/photo-michael.jpg").default}
-                  alt="Joseph"
+                  alt="Michael Lutz"
                 />
               </div>
               <blockquote className="text-xl text-gray-600 dark:text-gray-400">
                 Michael Lutz
               </blockquote>
               <blockquote className="text-xl text-blue-600 dark:text-gray-400">
-                Founder
+                
               </blockquote>
             </div>
 
@@ -155,14 +155,13 @@ function ResourcesBlock() {
                 <img
                   class="h-48 w-48 object-cover"
                   src={require("../images/photo-joseph.jpeg").default}
-                  alt="Arjun"
+                  alt="Joseph Thomas"
                 />
               </div>
               <blockquote className="text-xl text-gray-600 dark:text-gray-400">
                 Joseph Thomas
               </blockquote>
               <blockquote className="text-xl text-blue-600 dark:text-gray-400">
-                Co-President
               </blockquote>
             </div>
 
@@ -171,14 +170,13 @@ function ResourcesBlock() {
                 <img
                   class="h-48 w-48 object-cover"
                   src={require("../images/photo-sanjana.jpg").default}
-                  alt="Anousha"
+                  alt="Sanjana Gadaginmath"
                 />
               </div>
               <blockquote className="text-xl text-gray-600 dark:text-gray-400">
                 Sanjana Gadaginmath
               </blockquote>
               <blockquote className="text-xl text-blue-600 dark:text-gray-400">
-                Co-President
               </blockquote>
             </div>
           </div>
