@@ -35,7 +35,8 @@ function Home() {
         <AboutTransition />
         <Carousel />
         <Process />
-        <Instagram />
+      
+        {/*<Instagram /> - need to fix token being invalid*/} 
 
       </main>
 
