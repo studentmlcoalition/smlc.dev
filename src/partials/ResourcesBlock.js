@@ -25,7 +25,7 @@ function ResourcesBlock() {
                                 <img src={require('../images/smlcresource.png').default} width="200" height="200" alt="Testimonial 04" />
                             </div>
                             <blockquote className="text-xl text-gray-600 dark:text-gray-400">
-                                Check out our course Udemy! This course is optimized for efficency, but you don't need any prior knowledge 
+                                Check out our course on Udemy and YouTube! This course is optimized for efficency, but you don't need any prior knowledge 
                                 before starting. Make sure to scroll to the course description to access free coupons.
                             </blockquote>
                             <div className="font-red-hat-display font-bold mt-2">

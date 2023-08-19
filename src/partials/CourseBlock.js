@@ -26,8 +26,8 @@ function CourseBlock() {
                         </p>
 
                         <div className="space-y-2 font-red-hat-display font-bold mt-8">
-                            <a className="block text-teal-500 hover:underline transition duration-150 ease-in-out" href="https://www.udemy.com/course/the-complete-intro-to-machine-learning-with-python/">Checkout Our YouTube!</a>
-                            <a className="block text-teal-500 hover:underline transition duration-150 ease-in-out" href="https://www.udemy.com/course/the-complete-intro-to-machine-learning-with-python/">Sign Up Here!</a>
+                            <a className="block text-teal-500 hover:underline transition duration-150 ease-in-out" href="https://www.youtube.com/@SMLC">Check Out Our YouTube!</a>
+                            <a className="block text-teal-500 hover:underline transition duration-150 ease-in-out" href="https://www.udemy.com/course/the-complete-intro-to-machine-learning-with-python/">Sign up on Udemy here!</a>
                         </div>
 
                     </div>
