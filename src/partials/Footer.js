@@ -162,7 +162,7 @@ function Footer() {
                 {/*</div>*/}
 
                 {/* Copyrights note */}
-                <div className="text-gray-600 dark:text-gray-400 text-sm mr-4">&copy; 2021 SMLC. All rights reserved.</div>
+                <div className="text-gray-600 dark:text-gray-400 text-sm mr-4">&copy; 2023 SMLC. All rights reserved.</div>
 
             </div>
 
