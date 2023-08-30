@@ -125,8 +125,26 @@ function ResourcesBlock() {
                 Media Director
               </blockquote>
             </div>
+
+            <div className="text-center">
+              <div className="relative inline-flex flex-col mb-4">
+                <img
+                  class="h-48 w-48 object-cover"
+                  src={require("../images/photo-chatanya.jpeg").default}
+                  alt="Chatanya Sarin"
+                />
+              </div>
+              <blockquote className="text-xl text-gray-600 dark:text-gray-400">
+                Chatanya Sarin
+              </blockquote>
+              <blockquote className="text-xl text-blue-600 dark:text-gray-400">
+                Resource Co-Director
+              </blockquote>
+          </div>
           </div>
 
+          
+        
           {/* Alumni */}
           <div className="max-w-3xl mx-auto text-center pb-12 pt-10 md:pb-20">
             <h3 className="h3 font-red-hat-display mb-4 text-gray-400">
