@@ -103,11 +103,9 @@ function CourseBlock() {
                         <p className="md:pb-4">Udemy forces all courses longer than 2 hours to charge at least $20 in enrollment fees, however we believe education should be accessible. If you'd like to get this course without any cost, please use one of the coupons below before it expires. Sorry for the inconvenience, but this is the only way we can get around Udemy's rule.</p>
                         <ul className="list-inside list-disc md:pb-4">
                             <li>
-                                Click <a style = {{color: 'blue'}} href = "https://www.udemy.com/course/the-complete-intro-to-machine-learning-with-python/?couponCode=2F2A4B2B3727CB55FB82">here</a> to use a coupon that expires on 07/28/22
+                                Click <a style = {{color: 'blue'}} href = "https://www.udemy.com/course/the-complete-intro-to-machine-learning-with-python/?couponCode=SMLCFREE">here</a> to use a coupon that expires on 10/10/23! Or use code SMLCFREE!
                             </li>
-                            <li>
-                                Click <a style = {{color: 'blue'}} href = "https://www.udemy.com/course/the-complete-intro-to-machine-learning-with-python/?couponCode=7025E27BAC100A0E2B73">here</a> to use a coupon that expires on 08/11/22
-                            </li>
+                            
                         </ul>
                     </div>
                 </div>
