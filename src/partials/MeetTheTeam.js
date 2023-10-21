@@ -12,9 +12,8 @@ function ResourcesBlock() {
             </h2>
           </div>
 
-          {/* People */}
-          <div className="max-w-sm mx-auto grid gap-x-8 gap-y-12 sm:grid-cols-3 lg:gap-12 items-start sm:max-w-none md:max-w-2xl lg:max-w-none">
-            <div className="text-center">
+
+          <div className="text-center pb-12">
               <div className="relative inline-flex flex-col mb-4">
                 <img
                   class="h-48 w-48 object-cover"
@@ -29,6 +28,10 @@ function ResourcesBlock() {
                 President
               </blockquote>
             </div>
+
+          {/* People */}
+          <div className="max-w-sm mx-auto grid gap-x-8 gap-y-12 sm:grid-cols-3 lg:gap-12 items-start sm:max-w-none md:max-w-2xl lg:max-w-none">
+            
 
             <div className="text-center">
               <div className="relative inline-flex flex-col mb-4">
@@ -140,7 +143,38 @@ function ResourcesBlock() {
               <blockquote className="text-xl text-blue-600 dark:text-gray-400">
                 Resource Co-Director
               </blockquote>
-          </div>
+            </div>
+
+            <div className="text-center">
+              <div className="relative inline-flex flex-col mb-4">
+                <img
+                  class="h-48 w-48 object-cover"
+                  src={require("../images/photo-zane.jpeg").default}
+                  alt="Zane Hensley"
+                />
+              </div>
+              <blockquote className="text-xl text-gray-600 dark:text-gray-400">
+                Zane Hensley
+              </blockquote>
+              <blockquote className="text-xl text-blue-600 dark:text-gray-400">
+                Resource Co-Director
+              </blockquote>
+            </div>
+            <div className="text-center">
+              <div className="relative inline-flex flex-col mb-4">
+                <img
+                  class="h-48 w-48 object-cover"
+                  src={require("../images/photo-isaac.jpeg").default}
+                  alt="Isaac Contreras"
+                />
+              </div>
+              <blockquote className="text-xl text-gray-600 dark:text-gray-400">
+                Isaac Contreras
+              </blockquote>
+              <blockquote className="text-xl text-blue-600 dark:text-gray-400">
+                Outreach Director
+              </blockquote>
+            </div>
           </div>
 
           
@@ -196,6 +230,8 @@ function ResourcesBlock() {
               </blockquote>
               <blockquote className="text-xl text-blue-600 dark:text-gray-400">
               </blockquote>
+
+
             </div>
           </div>
         </div>
