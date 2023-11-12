@@ -92,7 +92,7 @@ function CourseBlock() {
                         <ul className="list-inside list-disc md:pb-4">
                             <li>Linear Regression</li>
                             <li>Logistic Regression</li>
-                            <li>Random Forrest Decision Trees</li>
+                            <li>Random Forest Decision Trees</li>
                             <li>Gradient-Boosted Decision Trees</li>
                             <li>Neural Networks</li>
                         </ul>
@@ -103,7 +103,7 @@ function CourseBlock() {
                         <p className="md:pb-4">Udemy forces all courses longer than 2 hours to charge at least $20 in enrollment fees, however we believe education should be accessible. If you'd like to get this course without any cost, please use one of the coupons below before it expires. Sorry for the inconvenience, but this is the only way we can get around Udemy's rule.</p>
                         <ul className="list-inside list-disc md:pb-4">
                             <li>
-                                Click <a style = {{color: 'blue'}} href = "https://www.udemy.com/course/the-complete-intro-to-machine-learning-with-python/?couponCode=SMLCFREE">here</a> to use a coupon that expires on 10/10/23! Or use code SMLCFREE!
+                                Click <a style = {{color: 'blue'}} href = "https://www.udemy.com/course/the-complete-intro-to-machine-learning-with-python/?couponCode=FREESMLC">here</a> to use a coupon that expires on 12/13/23! Or use code FREESMLC!
                             </li>
                             
                         </ul>
