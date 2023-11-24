@@ -358,6 +358,9 @@ function Header() {
                   Events
                 </Link>
               </li>
+              <li>
+                <a href="https://blog.smlc.dev" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-gray-100 px-5 py-2 flex items-center transition duration-150 ease-in-out">Blog</a>
+              </li>
               {/* 1st level: hover */}
             </ul>
           </nav>
@@ -426,6 +429,9 @@ function Header() {
                       >
                         Events
                       </Link>
+                    </li>
+                    <li>
+                      <a href="https://blog.smlc.dev" target="_blank" rel="noopener noreferrer" className="flex text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-gray-100 py-2">Blog</a>
                     </li>
                   </ul>
                 </div>
