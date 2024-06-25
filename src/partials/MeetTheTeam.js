@@ -17,12 +17,12 @@ function ResourcesBlock() {
               <div className="relative inline-flex flex-col mb-4">
                 <img
                   class="h-48 w-48 object-cover"
-                  src={require("../images/photo-aswin.jpeg").default}
-                  alt="Aswin Surya"
+                  src={require("../images/photo-aadi.jpg").default}
+                  alt="Aadi Chauhan"
                 />
               </div>
               <blockquote className="text-xl text-gray-600 dark:text-gray-400">
-                Aswin Surya
+                Aadi Chauhan
               </blockquote>
               <blockquote className="text-xl text-blue-600 dark:text-gray-400">
                 President
@@ -37,15 +37,15 @@ function ResourcesBlock() {
               <div className="relative inline-flex flex-col mb-4">
                 <img
                   class="h-48 w-48 object-cover"
-                  src={require("../images/photo-aadi.jpg").default}
-                  alt="Aadi Chauhan"
+                  src={require("../images/photo-ayush.jpeg").default}
+                  alt="Ayush Ghosh"
                 />
               </div>
               <blockquote className="text-xl text-gray-600 dark:text-gray-400">
-                Aadi Chauhan
+                Ayush Ghosh
               </blockquote>
               <blockquote className="text-xl text-blue-600 dark:text-gray-400">
-                Operations Director
+                Curriculum Director
               </blockquote>
             </div>
 
@@ -53,15 +53,15 @@ function ResourcesBlock() {
               <div className="relative inline-flex flex-col mb-4">
                 <img
                   class="h-48 w-48 object-cover"
-                  src={require("../images/photo-abhay.jpeg").default}
-                  alt="Abhay Pokhriyal"
+                  src={require("../images/photo-ayaan.jpeg").default}
+                  alt="Ayaan Vaswani"
                 />
               </div>
               <blockquote className="text-xl text-gray-600 dark:text-gray-400">
-                Abhay Pokhriyal
+                Ayaan Vaswani
               </blockquote>
               <blockquote className="text-xl text-blue-600 dark:text-gray-400">
-                Competition Director
+                Outreach Co-Director
               </blockquote>
             </div>
 
@@ -117,28 +117,12 @@ function ResourcesBlock() {
               <div className="relative inline-flex flex-col mb-4">
                 <img
                   class="h-48 w-48 object-cover"
-                  src={require("../images/photo-matthew.jpeg").default}
-                  alt="Matthew Bannon"
+                  src={require("../images/photo-vedant.jpeg").default}
+                  alt="Vedant Hathalia"
                 />
               </div>
               <blockquote className="text-xl text-gray-600 dark:text-gray-400">
-                Matthew Bannon
-              </blockquote>
-              <blockquote className="text-xl text-blue-600 dark:text-gray-400">
-                Media Director
-              </blockquote>
-            </div>
-
-            <div className="text-center">
-              <div className="relative inline-flex flex-col mb-4">
-                <img
-                  class="h-48 w-48 object-cover"
-                  src={require("../images/photo-chatanya.jpeg").default}
-                  alt="Chatanya Sarin"
-                />
-              </div>
-              <blockquote className="text-xl text-gray-600 dark:text-gray-400">
-                Chatanya Sarin
+                Vedant Hathalia
               </blockquote>
               <blockquote className="text-xl text-blue-600 dark:text-gray-400">
                 Resource Co-Director
@@ -146,6 +130,22 @@ function ResourcesBlock() {
             </div>
 
             <div className="text-center">
+              <div className="relative inline-flex flex-col mb-4">
+                <img
+                  class="h-48 w-48 object-cover"
+                  src={require("../images/photo-zachary.jpeg").default}
+                  alt="Chatanya Sarin"
+                />
+              </div>
+              <blockquote className="text-xl text-gray-600 dark:text-gray-400">
+                Zachary Li
+              </blockquote>
+              <blockquote className="text-xl text-blue-600 dark:text-gray-400">
+                Outreach Co-Director
+              </blockquote>
+            </div>
+
+            {/* <div className="text-center">
               <div className="relative inline-flex flex-col mb-4">
                 <img
                   class="h-48 w-48 object-cover"
@@ -159,8 +159,8 @@ function ResourcesBlock() {
               <blockquote className="text-xl text-blue-600 dark:text-gray-400">
                 Resource Co-Director
               </blockquote>
-            </div>
-            <div className="text-center">
+            </div> */}
+            {/* <div className="text-center">
               <div className="relative inline-flex flex-col mb-4">
                 <img
                   class="h-48 w-48 object-cover"
@@ -174,7 +174,7 @@ function ResourcesBlock() {
               <blockquote className="text-xl text-blue-600 dark:text-gray-400">
                 Outreach Director
               </blockquote>
-            </div>
+            </div> */}
           </div>
 
           
@@ -221,12 +221,12 @@ function ResourcesBlock() {
               <div className="relative inline-flex flex-col mb-4">
                 <img
                   class="h-48 w-48 object-cover"
-                  src={require("../images/photo-sanjana.jpg").default}
-                  alt="Sanjana Gadaginmath"
+                  src={require("../images/photo-aswin.jpeg").default}
+                  alt="Aswin Surya"
                 />
               </div>
               <blockquote className="text-xl text-gray-600 dark:text-gray-400">
-                Sanjana Gadaginmath
+                Aswin Surya
               </blockquote>
               <blockquote className="text-xl text-blue-600 dark:text-gray-400">
               </blockquote>
