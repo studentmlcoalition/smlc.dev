@@ -16,7 +16,7 @@ function HeroHome() {
             {/* Content */}
             <div className="md:col-span-7 lg:col-span-6 mb-8 md:mb-0 text-center md:text-left">
               <h1 className="h1 lg:text-6xl mb-10 font-red-hat-display font-extrabold" data-aos="fade-down">Student Machine Learning Coalition</h1>
-              <p className="text-xl text-gray-600 dark:text-gray-400" data-aos="fade-down" data-aos-delay="150">Welcome to SMLC! Our mission is to help anyone get involved in machine learning through courses, Kaggle competitions, and collaboration.</p>
+              <p className="text-xl text-gray-600 dark:text-gray-400" data-aos="fade-down" data-aos-delay="150">Welcome to SMLC! Our mission is to help anyone get involved in machine learning through online courses, library classes, and collaboration.</p>
             </div>
 
             {/*<iframe title="Map" src="https://www.google.com/maps/d/embed?mid=1jPqoPGmdGua6k6esdxjslTxPJaXWqF14&hl=en"

@@ -22,7 +22,7 @@ function ResourcesBlock() {
                 />
               </div>
               <blockquote className="text-xl text-gray-600 dark:text-gray-400">
-                Aadi Chauhan
+                <b>Aadi Chauhan</b>
               </blockquote>
               <blockquote className="text-xl text-blue-600 dark:text-gray-400">
                 President
@@ -129,7 +129,7 @@ function ResourcesBlock() {
               </blockquote>
             </div>
 
-            <div className="text-center">
+            {/* <div className="text-center">
               <div className="relative inline-flex flex-col mb-4">
                 <img
                   class="h-48 w-48 object-cover"
@@ -143,7 +143,7 @@ function ResourcesBlock() {
               <blockquote className="text-xl text-blue-600 dark:text-gray-400">
                 Outreach Co-Director
               </blockquote>
-            </div>
+            </div> */}
 
             {/* <div className="text-center">
               <div className="relative inline-flex flex-col mb-4">

@@ -40,7 +40,7 @@ function Process() {
               <div className="w-12 h-12 rounded-full bg-teal-400 dark:bg-teal-600 dark:bg-opacity-25 flex justify-center items-center text-white dark:text-teal-400 font-medium mb-8 lg:mb-12">2</div>
               {/* Mobile mockup */}
               <div className="inline-flex relative justify-center items-center">
-                <p className="text-xl text-gray-600 dark:text-gray-400">Participate in Kaggle competitions with other SMLC students to build and test models on real-world data.</p>
+                <p className="text-xl text-gray-600 dark:text-gray-400">Participate in research projects with other SMLC students to build and test models on real-world data.</p>
               </div>
             </div>
 
@@ -49,7 +49,7 @@ function Process() {
               <div className="w-12 h-12 rounded-full bg-teal-400 dark:bg-teal-600 dark:bg-opacity-25 flex justify-center items-center text-white dark:text-teal-400 font-medium mb-8 lg:mb-12">3</div>
               {/* Mobile mockup */}
               <div className="inline-flex relative justify-center items-center">
-              <p className="text-xl text-gray-600 dark:text-gray-400">Collaborate with other SMLC chapters to organize events, create a larger competition team, and much more!</p>
+              <p className="text-xl text-gray-600 dark:text-gray-400">Collaborate with other SMLC chapters to organize events, create a larger community, and much more!</p>
               </div>
             </div>
 

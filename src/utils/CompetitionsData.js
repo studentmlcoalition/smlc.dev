@@ -26,7 +26,7 @@ const competitions = [
   {
     photo: titanic,
     title: "Titanic",
-    description: "Predict survival of passengers on the Titanic (Winter 2021).",
+    description: "Predict survival of passengers on the Titanic.",
     status: "FIN",
     url: "titanic",
     page: Titanic,
@@ -34,7 +34,7 @@ const competitions = [
   {
     photo: mnist,
     title: "MNIST Digit Recognizer",
-    description: "Classify handwritten digits (Spring 2021).",
+    description: "Classify handwritten digits.",
     status: "FIN",
     url: "mnist",
     page: Mnist,
@@ -42,7 +42,7 @@ const competitions = [
   {
     photo: cov,
     title: "SIIM-FISABIO-RSNA COVID-19 Detection",
-    description: "Identify and localize COVID-19 abnormalities on chest radiographs (Summer 2021).",
+    description: "Identify and localize COVID-19 abnormalities on chest radiographs.",
     status: "FIN",
     url: "covid",
     page: Covid,
@@ -50,16 +50,16 @@ const competitions = [
   {
     photo: lux,
     title: "Lux AI",
-    description: "Create an AI which plays a resource gathering game (Fall 2021).",
-    status: "ONG",
+    description: "Create an AI which plays a resource gathering game.",
+    status: "FIN",
     url: "lux-ai",
     page: Luxai,
   },
   {
     photo: connect,
     title: "Connect X",
-    description: "Create an AI that can connect it's checkers before the opponent (Winter 2021).",
-    status: "ONG",
+    description: "Create an AI that can connect it's checkers before the opponent.",
+    status: "FIN",
     url: "connectx",
     page: Connectx,
   },
