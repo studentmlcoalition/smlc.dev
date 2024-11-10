@@ -6,6 +6,7 @@ import leland from "../images/chapter-pics/leland_logo.png";
 import neerja_modi from "../images/chapter-pics/neerja_modi_logo.png";
 import st_xaviers from "../images/chapter-pics/st_xaviers_kath_logo.jpg";
 import union_county_mag from "../images/chapter-pics/union_county_mag_logo.jpg";
+import stfrancis from "../images/chapter-pics/stfrancis_logo.png";
 
 // Maybe
 import de_anza from "../images/chapter-pics/de_anza_logo.png";
@@ -27,64 +28,71 @@ const chapters = [
     title: "Bellarmine College Preparatory",
     description: "San Jose, CA",
     location: "US",
-    url: "../../home"
+    url: "../../home",
   },
   {
     photo: leland,
     title: "Leland High School",
     description: "San Jose, CA",
     location: "US",
-    url: "../../home"
+    url: "../../home",
   },
   {
     photo: union_county_mag,
     title: "Union County Magnet High School",
     description: "Scotch Plains, NJ",
     location: "US",
-    url: "../../home"
+    url: "../../home",
   },
   {
     photo: basis_sv,
     title: "Basis Independent Silicon Valley",
     description: "San Jose, CA",
     location: "US",
-    url: "../../home"
+    url: "../../home",
   },
   {
     photo: de_anza,
     title: "De Anza Middle College",
     description: "Cupertino, CA",
     location: "US",
-    url: "../../home"
+    url: "../../home",
   },
   {
     photo: st_xaviers,
     title: "St. Xavier's College Kathmandu",
     description: "Kathmandu, Bagmati",
     location: "NEP",
-    url: "../../home"
+    url: "../../home",
   },
   {
     photo: neerja_modi,
     title: "Neerja Modi School",
     description: "Jaipur, Rajasthan",
     location: "IND",
-    url: "../../home"
+    url: "../../home",
   },
   {
     photo: harker,
     title: "The Harker School",
     description: "San Jose, CA",
     location: "PART",
-    url: "../../home"
+    url: "../../home",
   },
   {
     photo: lynbrook,
     title: "Lynbrook High School",
     description: "San Jose, CA",
     location: "PART",
-    url: "../../home"
-  }
+    url: "../../home",
+  },
+  {
+    photo: stfrancis,
+    title: "Saint Francis High School",
+    description: "Mountain View, CA",
+    location: "PART",
+    url: "../../home",
+  },
 ];
 
 export const chapterSections = [
@@ -101,10 +109,9 @@ export const chapterSections = [
     chapters: chapters.filter((chapter) => chapter.location === "IND"),
   },
   {
-  title: "Partnered Schools",
+    title: "Partnered Schools",
     chapters: chapters.filter((chapter) => chapter.location === "PART"),
-  }
+  },
 ];
-
 
 export default chapterSections;
