@@ -1,9 +1,9 @@
 {
-  "name": "appy-react",
+  "name": "smlc.dev",
   "version": "0.1.0",
   "private": true,
   "engines": {
-    "node": "16.x"
+    "node": "18.x"
   },
   "dependencies": {
     "@craco/craco": "^6.1.1",
