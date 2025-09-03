@@ -6,97 +6,30 @@ function ResourcesBlock() {
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         <div className="py-12 md:py-20 border-t border-transparent dark:border-gray-800">
           {/* Section header */}
-          <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
+          <div className="max-w-3xl mx-auto text-center py-12">
             <h2 className="h2 font-red-hat-display mb-4">
               Meet Our Leadership!
             </h2>
           </div>
 
-
           <div className="text-center pb-12">
-              <div className="relative inline-flex flex-col mb-4">
-                <img
-                  class="h-48 w-48 object-cover"
-                  src={require("../images/photo-aadi.jpg").default}
-                  alt="Aadi Chauhan"
-                />
-              </div>
-              <blockquote className="text-xl text-gray-600 dark:text-gray-400">
-                <b>Aadi Chauhan</b>
-              </blockquote>
-              <blockquote className="text-xl text-blue-600 dark:text-gray-400">
-                President
-              </blockquote>
+            <div className="relative inline-flex flex-col mb-4">
+              <img
+                class="h-48 w-48 object-cover"
+                src={require("../images/photo-kevin.jpeg").default}
+                alt="Kevin Lu"
+              />
             </div>
+            <blockquote className="text-xl text-gray-600 dark:text-gray-400">
+              <b>Kevin Lu</b>
+            </blockquote>
+            <blockquote className="text-xl text-blue-600 dark:text-gray-400">
+              President
+            </blockquote>
+          </div>
 
           {/* People */}
-          <div className="max-w-sm mx-auto grid gap-x-8 gap-y-12 sm:grid-cols-3 lg:gap-12 items-start sm:max-w-none md:max-w-2xl lg:max-w-none">
-            
-
-            <div className="text-center">
-              <div className="relative inline-flex flex-col mb-4">
-                <img
-                  class="h-48 w-48 object-cover"
-                  src={require("../images/photo-ayush.jpeg").default}
-                  alt="Ayush Ghosh"
-                />
-              </div>
-              <blockquote className="text-xl text-gray-600 dark:text-gray-400">
-                Ayush Ghosh
-              </blockquote>
-              <blockquote className="text-xl text-blue-600 dark:text-gray-400">
-                Curriculum Director
-              </blockquote>
-            </div>
-
-            <div className="text-center">
-              <div className="relative inline-flex flex-col mb-4">
-                <img
-                  class="h-48 w-48 object-cover"
-                  src={require("../images/photo-ayaan.jpeg").default}
-                  alt="Ayaan Vaswani"
-                />
-              </div>
-              <blockquote className="text-xl text-gray-600 dark:text-gray-400">
-                Ayaan Vaswani
-              </blockquote>
-              <blockquote className="text-xl text-blue-600 dark:text-gray-400">
-                Outreach Co-Director
-              </blockquote>
-            </div>
-
-            <div className="text-center">
-              <div className="relative inline-flex flex-col mb-4">
-                <img
-                  class="h-48 w-48 object-cover"
-                  src={require("../images/photo-rudransh.jpeg").default}
-                  alt="Rudransh Singh"
-                />
-              </div>
-              <blockquote className="text-xl text-gray-600 dark:text-gray-400">
-                Rudransh Singh
-              </blockquote>
-              <blockquote className="text-xl text-blue-600 dark:text-gray-400">
-                Resource Co-Director
-              </blockquote>
-            </div>
-
-            <div className="text-center">
-              <div className="relative inline-flex flex-col mb-4">
-                <img
-                  class="h-48 w-48 object-cover"
-                  src={require("../images/photo-kevin.jpeg").default}
-                  alt="Kevin Lu"
-                />
-              </div>
-              <blockquote className="text-xl text-gray-600 dark:text-gray-400">
-                Kevin Lu
-              </blockquote>
-              <blockquote className="text-xl text-blue-600 dark:text-gray-400">
-                Resource Co-Director
-              </blockquote>
-            </div>
-
+          <div className="max-w-2xl mx-auto grid gap-x-8 gap-y-12 lg:gap-12 sm:grid-cols-2 items-center justify-center">
             <div className="text-center">
               <div className="relative inline-flex flex-col mb-4">
                 <img
@@ -129,6 +62,21 @@ function ResourcesBlock() {
               </blockquote>
             </div>
 
+            {/* <div className="text-center">
+              <div className="relative inline-flex flex-col mb-4">
+                <img
+                  class="h-48 w-48 object-cover"
+                  src={require("../images/photo-ayaan.jpeg").default}
+                  alt="Ayaan Vaswani"
+                />
+              </div>
+              <blockquote className="text-xl text-gray-600 dark:text-gray-400">
+                Ayaan Vaswani
+              </blockquote>
+              <blockquote className="text-xl text-blue-600 dark:text-gray-400">
+                Outreach Co-Director
+              </blockquote>
+            </div> */}
             {/* <div className="text-center">
               <div className="relative inline-flex flex-col mb-4">
                 <img
@@ -177,8 +125,6 @@ function ResourcesBlock() {
             </div> */}
           </div>
 
-          
-        
           {/* Alumni */}
           <div className="max-w-3xl mx-auto text-center pb-12 pt-10 md:pb-20">
             <h3 className="h3 font-red-hat-display mb-4 text-gray-400">
@@ -198,7 +144,7 @@ function ResourcesBlock() {
                 Michael Lutz
               </blockquote>
               <blockquote className="text-xl text-blue-600 dark:text-gray-400">
-                
+                EECS at Berkeley
               </blockquote>
             </div>
 
@@ -214,6 +160,7 @@ function ResourcesBlock() {
                 Joseph Thomas
               </blockquote>
               <blockquote className="text-xl text-blue-600 dark:text-gray-400">
+                CS at Georgia Tech
               </blockquote>
             </div>
 
@@ -229,9 +176,56 @@ function ResourcesBlock() {
                 Aswin Surya
               </blockquote>
               <blockquote className="text-xl text-blue-600 dark:text-gray-400">
+                EECS at Berkeley
               </blockquote>
+            </div>
 
+            <div className="text-center">
+              <div className="relative inline-flex flex-col mb-4">
+                <img
+                  class="h-48 w-48 object-cover"
+                  src={require("../images/photo-aadi.jpg").default}
+                  alt="Aadi Chauhan"
+                />
+              </div>
+              <blockquote className="text-xl text-gray-600 dark:text-gray-400">
+                Aadi Chauhan
+              </blockquote>
+              <blockquote className="text-xl text-blue-600 dark:text-gray-400">
+                CS at Stanford
+              </blockquote>
+            </div>
 
+            <div className="text-center">
+              <div className="relative inline-flex flex-col mb-4">
+                <img
+                  class="h-48 w-48 object-cover"
+                  src={require("../images/photo-ayush.jpeg").default}
+                  alt="Ayush Ghosh"
+                />
+              </div>
+              <blockquote className="text-xl text-gray-600 dark:text-gray-400">
+                Ayush Ghosh
+              </blockquote>
+              <blockquote className="text-xl text-blue-600 dark:text-gray-400">
+                EECS at Berkeley
+              </blockquote>
+            </div>
+
+            <div className="text-center">
+              <div className="relative inline-flex flex-col mb-4">
+                <img
+                  class="h-48 w-48 object-cover"
+                  src={require("../images/photo-rudransh.jpeg").default}
+                  alt="Rudransh Singh"
+                />
+              </div>
+              <blockquote className="text-xl text-gray-600 dark:text-gray-400">
+                Rudransh Singh
+              </blockquote>
+              <blockquote className="text-xl text-blue-600 dark:text-gray-400">
+                EECS at Berkeley
+              </blockquote>
             </div>
           </div>
         </div>
