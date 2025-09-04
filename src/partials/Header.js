@@ -1,14 +1,16 @@
 import React, { useState, Fragment, useRef, useEffect } from "react";
 import { Link } from "react-router-dom";
-import { Menu, Transition } from "@headlessui/react"
-import { ChevronDownIcon } from '@heroicons/react/solid'
+import { Menu, Transition } from "@headlessui/react";
+import { ChevronDownIcon } from "@heroicons/react/solid";
 
 function classNames(...classes) {
-  return classes.filter(Boolean).join(' ')
+  return classes.filter(Boolean).join(" ");
 }
 
 function Header() {
   const [mobileNavOpen, setMobileNavOpen] = useState(false);
+  const [mobileAboutOpen, setMobileAboutOpen] = useState(false);
+  const [mobileResourcesOpen, setMobileResourcesOpen] = useState(false);
 
   const mobileNav = useRef(null);
 
@@ -212,8 +214,11 @@ function Header() {
               <Menu as="li" className="relative inline-block text-left">
                 <div>
                   <Menu.Button className="text-gray-600 font-medium hover:text-gray-900 dark:text-gray-300 dark:hover:text-gray-100 px-5 py-2 flex items-center transition duration-150 ease-in-out">
-                    About 
-                    <ChevronDownIcon className="-mr-1 ml-2 h-5 w-5" aria-hidden="true" />
+                    About
+                    <ChevronDownIcon
+                      className="-mr-1 ml-2 h-5 w-5"
+                      aria-hidden="true"
+                    />
                   </Menu.Button>
                 </div>
 
@@ -233,8 +238,10 @@ function Header() {
                           <a
                             href="about"
                             className={classNames(
-                              active ? 'bg-gray-100 text-gray-900' : 'text-gray-700',
-                              'block px-4 py-2 text-sm'
+                              active
+                                ? "bg-gray-100 text-gray-900"
+                                : "text-gray-700",
+                              "block px-4 py-2 text-sm"
                             )}
                           >
                             What We Do
@@ -246,8 +253,10 @@ function Header() {
                           <a
                             href="people"
                             className={classNames(
-                              active ? 'bg-gray-100 text-gray-900' : 'text-gray-700',
-                              'block px-4 py-2 text-sm'
+                              active
+                                ? "bg-gray-100 text-gray-900"
+                                : "text-gray-700",
+                              "block px-4 py-2 text-sm"
                             )}
                           >
                             Leadership
@@ -259,8 +268,10 @@ function Header() {
                           <a
                             href="chapters"
                             className={classNames(
-                              active ? 'bg-gray-100 text-gray-900' : 'text-gray-700',
-                              'block px-4 py-2 text-sm'
+                              active
+                                ? "bg-gray-100 text-gray-900"
+                                : "text-gray-700",
+                              "block px-4 py-2 text-sm"
                             )}
                           >
                             Chapters
@@ -272,8 +283,10 @@ function Header() {
                           <a
                             href="partners"
                             className={classNames(
-                              active ? 'bg-gray-100 text-gray-900' : 'text-gray-700',
-                              'block px-4 py-2 text-sm'
+                              active
+                                ? "bg-gray-100 text-gray-900"
+                                : "text-gray-700",
+                              "block px-4 py-2 text-sm"
                             )}
                           >
                             Partners
@@ -288,8 +301,11 @@ function Header() {
               <Menu as="li" className="relative inline-block text-left">
                 <div>
                   <Menu.Button className="text-gray-600 font-medium hover:text-gray-900 dark:text-gray-300 dark:hover:text-gray-100 px-5 py-2 flex items-center transition duration-150 ease-in-out">
-                    Resources 
-                    <ChevronDownIcon className="-mr-1 ml-2 h-5 w-5" aria-hidden="true" />
+                    Resources
+                    <ChevronDownIcon
+                      className="-mr-1 ml-2 h-5 w-5"
+                      aria-hidden="true"
+                    />
                   </Menu.Button>
                 </div>
 
@@ -309,8 +325,10 @@ function Header() {
                           <a
                             href="course"
                             className={classNames(
-                              active ? 'bg-gray-100 text-gray-900' : 'text-gray-700',
-                              'block px-4 py-2 text-sm'
+                              active
+                                ? "bg-gray-100 text-gray-900"
+                                : "text-gray-700",
+                              "block px-4 py-2 text-sm"
                             )}
                           >
                             Our Intro to ML Course!
@@ -322,8 +340,10 @@ function Header() {
                           <a
                             href="resources"
                             className={classNames(
-                              active ? 'bg-gray-100 text-gray-900' : 'text-gray-700',
-                              'block px-4 py-2 text-sm'
+                              active
+                                ? "bg-gray-100 text-gray-900"
+                                : "text-gray-700",
+                              "block px-4 py-2 text-sm"
                             )}
                           >
                             Other Resources
@@ -359,7 +379,14 @@ function Header() {
                 </Link>
               </li>
               <li>
-                <a href="https://blog.smlc.dev" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-gray-100 px-5 py-2 flex items-center transition duration-150 ease-in-out">Blog</a>
+                <a
+                  href="https://blog.smlc.dev"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-gray-100 px-5 py-2 flex items-center transition duration-150 ease-in-out"
+                >
+                  Blog
+                </a>
               </li>
               {/* 1st level: hover */}
             </ul>
@@ -414,12 +441,141 @@ function Header() {
                         Home
                       </Link>
                     </li>
+
+                    {/* About dropdown for mobile */}
+                    <li>
+                      <div>
+                        <button
+                          onClick={() => setMobileAboutOpen(!mobileAboutOpen)}
+                          className="flex items-center justify-between w-full text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-gray-100 py-2"
+                        >
+                          About
+                          <ChevronDownIcon
+                            className={`ml-2 h-5 w-5 transform transition-transform duration-200 ${
+                              mobileAboutOpen ? "rotate-180" : ""
+                            }`}
+                            aria-hidden="true"
+                          />
+                        </button>
+                        <Transition
+                          show={mobileAboutOpen}
+                          enter="transition ease-out duration-200"
+                          enterFrom="opacity-0 max-h-0"
+                          enterTo="opacity-100 max-h-96"
+                          leave="transition ease-in duration-150"
+                          leaveFrom="opacity-100 max-h-96"
+                          leaveTo="opacity-0 max-h-0"
+                        >
+                          <div className="overflow-hidden">
+                            <ul className="pl-4 py-2 space-y-1">
+                              <li>
+                                <Link
+                                  to="/about"
+                                  className="block text-gray-500 hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-200 py-1 text-sm"
+                                  onClick={() => setMobileNavOpen(false)}
+                                >
+                                  What We Do
+                                </Link>
+                              </li>
+                              <li>
+                                <Link
+                                  to="/people"
+                                  className="block text-gray-500 hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-200 py-1 text-sm"
+                                  onClick={() => setMobileNavOpen(false)}
+                                >
+                                  Leadership
+                                </Link>
+                              </li>
+                              <li>
+                                <Link
+                                  to="/chapters"
+                                  className="block text-gray-500 hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-200 py-1 text-sm"
+                                  onClick={() => setMobileNavOpen(false)}
+                                >
+                                  Chapters
+                                </Link>
+                              </li>
+                              <li>
+                                <Link
+                                  to="/partners"
+                                  className="block text-gray-500 hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-200 py-1 text-sm"
+                                  onClick={() => setMobileNavOpen(false)}
+                                >
+                                  Partners
+                                </Link>
+                              </li>
+                            </ul>
+                          </div>
+                        </Transition>
+                      </div>
+                    </li>
+
+                    {/* Resources dropdown for mobile */}
+                    <li>
+                      <div>
+                        <button
+                          onClick={() =>
+                            setMobileResourcesOpen(!mobileResourcesOpen)
+                          }
+                          className="flex items-center justify-between w-full text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-gray-100 py-2"
+                        >
+                          Resources
+                          <ChevronDownIcon
+                            className={`ml-2 h-5 w-5 transform transition-transform duration-200 ${
+                              mobileResourcesOpen ? "rotate-180" : ""
+                            }`}
+                            aria-hidden="true"
+                          />
+                        </button>
+                        <Transition
+                          show={mobileResourcesOpen}
+                          enter="transition ease-out duration-200"
+                          enterFrom="opacity-0 max-h-0"
+                          enterTo="opacity-100 max-h-96"
+                          leave="transition ease-in duration-150"
+                          leaveFrom="opacity-100 max-h-96"
+                          leaveTo="opacity-0 max-h-0"
+                        >
+                          <div className="overflow-hidden">
+                            <ul className="pl-4 py-2 space-y-1">
+                              <li>
+                                <Link
+                                  to="/course"
+                                  className="block text-gray-500 hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-200 py-1 text-sm"
+                                  onClick={() => setMobileNavOpen(false)}
+                                >
+                                  Our Intro to ML Course!
+                                </Link>
+                              </li>
+                              <li>
+                                <Link
+                                  to="/resources"
+                                  className="block text-gray-500 hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-200 py-1 text-sm"
+                                  onClick={() => setMobileNavOpen(false)}
+                                >
+                                  Other Resources
+                                </Link>
+                              </li>
+                            </ul>
+                          </div>
+                        </Transition>
+                      </div>
+                    </li>
+
                     <li>
                       <Link
-                        to="/about"
+                        to="/competitions"
                         className="flex text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-gray-100 py-2"
                       >
-                        About
+                        Projects
+                      </Link>
+                    </li>
+                    <li>
+                      <Link
+                        to="/course"
+                        className="flex text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-gray-100 py-2"
+                      >
+                        Course
                       </Link>
                     </li>
                     <li>
@@ -431,7 +587,14 @@ function Header() {
                       </Link>
                     </li>
                     <li>
-                      <a href="https://blog.smlc.dev" target="_blank" rel="noopener noreferrer" className="flex text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-gray-100 py-2">Blog</a>
+                      <a
+                        href="https://blog.smlc.dev"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="flex text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-gray-100 py-2"
+                      >
+                        Blog
+                      </a>
                     </li>
                   </ul>
                 </div>
