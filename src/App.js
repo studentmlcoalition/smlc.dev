@@ -1,11 +1,11 @@
 import React, { useEffect } from "react";
 import { Switch, Route, useLocation } from "react-router-dom";
-import { Analytics } from "@vercel/analytics/react";
 
 import "./css/style.scss";
 
 import AOS from "aos";
 import { focusHandling } from "cruip-js-toolkit";
+import { inject } from "@vercel/analytics";
 
 import Home from "./pages/Home";
 import About from "./pages/About";
@@ -29,6 +29,7 @@ function App() {
       duration: 750,
       easing: "ease-out-quart",
     });
+    inject();
   });
 
   useEffect(() => {
@@ -76,7 +77,6 @@ function App() {
       <Route path="*">
         <PageNotFound />
       </Route>
-      <Analytics />
     </Switch>
   );
 }
