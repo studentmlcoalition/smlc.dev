@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import { Switch, Route, useLocation } from "react-router-dom";
+import { Analytics } from "@vercel/analytics/react";
 
 import "./css/style.scss";
 
@@ -8,7 +9,7 @@ import { focusHandling } from "cruip-js-toolkit";
 
 import Home from "./pages/Home";
 import About from "./pages/About";
-import People from './pages/People';
+import People from "./pages/People";
 import Chapters from "./pages/Chapters";
 import Competitions from "./pages/Competitions";
 import Partners from "./pages/Partners";
@@ -75,6 +76,7 @@ function App() {
       <Route path="*">
         <PageNotFound />
       </Route>
+      <Analytics />
     </Switch>
   );
 }
