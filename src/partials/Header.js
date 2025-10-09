@@ -1,7 +1,7 @@
 import React, { useState, Fragment, useRef, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { Menu, Transition } from "@headlessui/react";
-import { ChevronDownIcon } from "@heroicons/react/solid";
+import { ChevronDownIcon, ArrowRightIcon } from "@heroicons/react/solid";
 
 function classNames(...classes) {
   return classes.filter(Boolean).join(" ");
@@ -50,6 +50,21 @@ function Header() {
 
   return (
     <header className="absolute w-full z-30">
+      <a
+        href="https://www.udemy.com/course/the-complete-intro-to-machine-learning-with-python/"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="block w-full bg-teal-500 hover:bg-teal-600 transition-colors duration-200"
+      >
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 py-3">
+          <div className="flex items-center justify-center text-white text-sm sm:text-base font-medium">
+            <span className="text-center">
+              New Agentic AI Module Added to Our Udemy Course!
+            </span>
+            <ArrowRightIcon className="ml-2 h-4 w-4 sm:h-5 sm:w-5 flex-shrink-0" />
+          </div>
+        </div>
+      </a>
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         <div className="flex items-center justify-between h-20">
           {/* Site branding */}
