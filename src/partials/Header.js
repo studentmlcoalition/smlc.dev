@@ -398,7 +398,7 @@ function Header() {
                   Events
                 </Link>
               </li>
-              <li>
+              {/* <li>
                 <a
                   href="https://blog.smlc.dev"
                   target="_blank"
@@ -407,7 +407,7 @@ function Header() {
                 >
                   Blog
                 </a>
-              </li>
+              </li> */}
               {/* 1st level: hover */}
             </ul>
           </nav>
