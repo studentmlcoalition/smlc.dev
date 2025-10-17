@@ -1,4 +1,7 @@
 // Import Chapter Photos
+import del_norte from "../images/chapter-pics/del-norte.png";
+import mitty from "../images/chapter-pics/mitty.jpg";
+import early_college_of_technology from "../images/chapter-pics/early-college-of-technology.png";
 import basis_ahwatukee from "../images/chapter-pics/basis_ahwatukee_logo.jpg";
 import basis_sv from "../images/chapter-pics/basis_sv_logo.jpg";
 import bcp from "../images/chapter-pics/bcp_logo.png";
@@ -48,6 +51,27 @@ const chapters = [
     photo: basis_sv,
     title: "Basis Independent Silicon Valley",
     description: "San Jose, CA",
+    location: "US",
+    url: "../../home",
+  },
+  {
+    photo: early_college_of_technology,
+    title: "Early College of Technology",
+    description: "Concord, North Carolina",
+    location: "US",
+    url: "../../home",
+  },
+  {
+    photo: mitty,
+    title: "Archbishop Mitty High School",
+    description: "San Jose, CA",
+    location: "US",
+    url: "../../home",
+  },
+  {
+    photo: del_norte,
+    title: "Del Norte High School",
+    description: "San Diego, CA",
     location: "US",
     url: "../../home",
   },
