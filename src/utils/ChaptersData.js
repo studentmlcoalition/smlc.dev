@@ -1,4 +1,5 @@
 // Import Chapter Photos
+import vista_del_algo from "../images/chapter-pics/vista_del_algo.png";
 import del_norte from "../images/chapter-pics/del-norte.png";
 import mitty from "../images/chapter-pics/mitty.jpg";
 import early_college_of_technology from "../images/chapter-pics/early-college-of-technology.png";
@@ -72,6 +73,13 @@ const chapters = [
     photo: del_norte,
     title: "Del Norte High School",
     description: "San Diego, CA",
+    location: "US",
+    url: "../../home",
+  },
+  {
+    photo: vista_del_algo,
+    title: "Vista del Algo High School",
+    description: "Folsom, CA",
     location: "US",
     url: "../../home",
   },
