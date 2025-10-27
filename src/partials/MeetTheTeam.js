@@ -24,7 +24,7 @@ function ResourcesBlock() {
               Kevin Lu
             </blockquote>
             <blockquote className="text-xl text-blue-600 dark:text-gray-400">
-              Co-President
+              President
             </blockquote>
           </div>
 
@@ -42,7 +42,7 @@ function ResourcesBlock() {
                 Aarush Gupta
               </blockquote>
               <blockquote className="text-xl text-blue-600 dark:text-gray-400">
-                Co-President
+                Vice President
               </blockquote>
             </div>
 
