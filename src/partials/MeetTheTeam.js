@@ -29,7 +29,7 @@ function ResourcesBlock() {
           </div>
 
           {/* People */}
-          <div className="max-w-2xl mx-auto grid gap-x-8 gap-y-12 lg:gap-12 sm:grid-cols-2 items-center justify-center">
+          <div className="max-w-2xl mx-auto grid gap-x-8 gap-y-12 lg:gap-12 sm:grid-cols-3 items-center justify-center">
             <div className="text-center">
               <div className="relative inline-flex flex-col mb-4">
                 <img
@@ -43,6 +43,22 @@ function ResourcesBlock() {
               </blockquote>
               <blockquote className="text-xl text-blue-600 dark:text-gray-400">
                 Vice President
+              </blockquote>
+            </div>
+
+            <div className="text-center">
+              <div className="relative inline-flex flex-col mb-4">
+                <img
+                  class="h-48 w-48 object-cover"
+                  src={require("../images/photo-rohit-shenoy.jpeg").default}
+                  alt="Rohit Shenoy"
+                />
+              </div>
+              <blockquote className="text-xl text-gray-600 dark:text-gray-400">
+                Rohit Shenoy
+              </blockquote>
+              <blockquote className="text-xl text-blue-600 dark:text-gray-400">
+                Resource Director
               </blockquote>
             </div>
 

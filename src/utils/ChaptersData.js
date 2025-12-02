@@ -1,8 +1,9 @@
 // Import Chapter Photos
-import vista_del_algo from "../images/chapter-pics/vista_del_algo.png";
+import seminole from "../images/chapter-pics/seminole-high.png";
+import nutley from "../images/chapter-pics/nutley-high.png";
+import westview from "../images/chapter-pics/westview-high.png";
 import del_norte from "../images/chapter-pics/del-norte.png";
 import mitty from "../images/chapter-pics/mitty.jpg";
-import early_college_of_technology from "../images/chapter-pics/early-college-of-technology.png";
 import basis_ahwatukee from "../images/chapter-pics/basis_ahwatukee_logo.jpg";
 import basis_sv from "../images/chapter-pics/basis_sv_logo.jpg";
 import bcp from "../images/chapter-pics/bcp_logo.png";
@@ -56,13 +57,6 @@ const chapters = [
     url: "../../home",
   },
   {
-    photo: early_college_of_technology,
-    title: "Early College of Technology",
-    description: "Concord, North Carolina",
-    location: "US",
-    url: "../../home",
-  },
-  {
     photo: mitty,
     title: "Archbishop Mitty High School",
     description: "San Jose, CA",
@@ -77,9 +71,23 @@ const chapters = [
     url: "../../home",
   },
   {
-    photo: vista_del_algo,
-    title: "Vista del Algo High School",
-    description: "Folsom, CA",
+    photo: seminole,
+    title: "Seminole High School",
+    description: "Sanford, Florida",
+    location: "US",
+    url: "../../home",
+  },
+  {
+    photo: nutley,
+    title: "Nutley High School",
+    description: "Nutley, New Jersey",
+    location: "US",
+    url: "../../home",
+  },
+  {
+    photo: westview,
+    title: "Westview High School",
+    description: "San Diego, CA",
     location: "US",
     url: "../../home",
   },

@@ -231,6 +231,14 @@ function Header() {
                   Home
                 </Link>
               </li>
+              <li>
+                <Link
+                  to="/people"
+                  className="text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-gray-100 px-5 py-2 flex items-center transition duration-150 ease-in-out"
+                >
+                  Leadership
+                </Link>
+              </li>
               <Menu as="li" className="relative inline-block text-left">
                 <div>
                   <Menu.Button className="text-gray-600 font-medium hover:text-gray-900 dark:text-gray-300 dark:hover:text-gray-100 px-5 py-2 flex items-center transition duration-150 ease-in-out">
@@ -271,21 +279,6 @@ function Header() {
                       <Menu.Item>
                         {({ active }) => (
                           <a
-                            href="people"
-                            className={classNames(
-                              active
-                                ? "bg-gray-100 text-gray-900"
-                                : "text-gray-700",
-                              "block px-4 py-2 text-sm"
-                            )}
-                          >
-                            Leadership
-                          </a>
-                        )}
-                      </Menu.Item>
-                      <Menu.Item>
-                        {({ active }) => (
-                          <a
                             href="chapters"
                             className={classNames(
                               active
@@ -318,7 +311,7 @@ function Header() {
                 </Transition>
               </Menu>
 
-              <Menu as="li" className="relative inline-block text-left">
+              {/* <Menu as="li" className="relative inline-block text-left">
                 <div>
                   <Menu.Button className="text-gray-600 font-medium hover:text-gray-900 dark:text-gray-300 dark:hover:text-gray-100 px-5 py-2 flex items-center transition duration-150 ease-in-out">
                     Resources
@@ -373,7 +366,7 @@ function Header() {
                     </div>
                   </Menu.Items>
                 </Transition>
-              </Menu>
+              </Menu> */}
               <li>
                 <Link
                   to="/competitions"
@@ -462,6 +455,15 @@ function Header() {
                       </Link>
                     </li>
 
+                    <li>
+                      <Link
+                        to="/people"
+                        className="flex text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-gray-100 py-2"
+                      >
+                        Leadership
+                      </Link>
+                    </li>
+
                     {/* About dropdown for mobile */}
                     <li>
                       <div>
@@ -499,15 +501,6 @@ function Header() {
                               </li>
                               <li>
                                 <Link
-                                  to="/people"
-                                  className="block text-gray-500 hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-200 py-1 text-sm"
-                                  onClick={() => setMobileNavOpen(false)}
-                                >
-                                  Leadership
-                                </Link>
-                              </li>
-                              <li>
-                                <Link
                                   to="/chapters"
                                   className="block text-gray-500 hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-200 py-1 text-sm"
                                   onClick={() => setMobileNavOpen(false)}
@@ -531,7 +524,7 @@ function Header() {
                     </li>
 
                     {/* Resources dropdown for mobile */}
-                    <li>
+                    {/* <li>
                       <div>
                         <button
                           onClick={() =>
@@ -580,7 +573,7 @@ function Header() {
                           </div>
                         </Transition>
                       </div>
-                    </li>
+                    </li> */}
 
                     <li>
                       <Link
