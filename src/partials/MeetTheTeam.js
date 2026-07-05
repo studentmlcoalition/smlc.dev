@@ -12,40 +12,8 @@ function ResourcesBlock() {
             </h2>
           </div>
 
-          <div className="text-center pb-12">
-            <div className="relative inline-flex flex-col mb-4">
-              <img
-                class="h-48 w-48 object-cover"
-                src={require("../images/photo-kevin.jpeg").default}
-                alt="Kevin Lu"
-              />
-            </div>
-            <blockquote className="text-xl text-gray-600 dark:text-gray-400">
-              Kevin Lu
-            </blockquote>
-            <blockquote className="text-xl text-blue-600 dark:text-gray-400">
-              President
-            </blockquote>
-          </div>
-
           {/* People */}
           <div className="max-w-2xl mx-auto grid gap-x-8 gap-y-12 lg:gap-12 sm:grid-cols-3 items-center justify-center">
-            <div className="text-center">
-              <div className="relative inline-flex flex-col mb-4">
-                <img
-                  class="h-48 w-48 object-cover"
-                  src={require("../images/photo-aarush.jpeg").default}
-                  alt="Aarush Gupta"
-                />
-              </div>
-              <blockquote className="text-xl text-gray-600 dark:text-gray-400">
-                Aarush Gupta
-              </blockquote>
-              <blockquote className="text-xl text-blue-600 dark:text-gray-400">
-                Vice President
-              </blockquote>
-            </div>
-
             <div className="text-center">
               <div className="relative inline-flex flex-col mb-4">
                 <img
@@ -58,7 +26,7 @@ function ResourcesBlock() {
                 Rohit Shenoy
               </blockquote>
               <blockquote className="text-xl text-blue-600 dark:text-gray-400">
-                Resource Director
+                Co-President
               </blockquote>
             </div>
 
@@ -74,7 +42,23 @@ function ResourcesBlock() {
                 Vedant Hathalia
               </blockquote>
               <blockquote className="text-xl text-blue-600 dark:text-gray-400">
-                Resource Director
+                Co-President
+              </blockquote>
+            </div>
+
+            <div className="text-center">
+              <div className="relative inline-flex flex-col mb-4">
+                <img
+                  class="h-48 w-48 object-cover"
+                  src={require("../images/photo-adhitya.jpeg").default}
+                  alt="Adhitya Rajendra Kumar"
+                />
+              </div>
+              <blockquote className="text-xl text-gray-600 dark:text-gray-400">
+                Adhitya Rajendra Kumar
+              </blockquote>
+              <blockquote className="text-xl text-blue-600 dark:text-gray-400">
+                Co-President
               </blockquote>
             </div>
 
@@ -148,6 +132,38 @@ function ResourcesBlock() {
             </h3>
           </div>
           <div className="max-w-sm mx-auto grid gap-x-8 gap-y-12 sm:grid-cols-3 lg:gap-12 items-start sm:max-w-none md:max-w-2xl lg:max-w-none">
+            <div className="text-center">
+              <div className="relative inline-flex flex-col mb-4">
+                <img
+                  class="h-48 w-48 object-cover"
+                  src={require("../images/photo-kevin.jpeg").default}
+                  alt="Kevin Lu"
+                />
+              </div>
+              <blockquote className="text-xl text-gray-600 dark:text-gray-400">
+                Kevin Lu
+              </blockquote>
+              <blockquote className="text-xl text-blue-600 dark:text-gray-400">
+                Math + CS @ Stanford
+              </blockquote>
+            </div>
+
+            <div className="text-center">
+              <div className="relative inline-flex flex-col mb-4">
+                <img
+                  class="h-48 w-48 object-cover"
+                  src={require("../images/photo-aarush.jpeg").default}
+                  alt="Aarush Gupta"
+                />
+              </div>
+              <blockquote className="text-xl text-gray-600 dark:text-gray-400">
+                Aarush Gupta
+              </blockquote>
+              <blockquote className="text-xl text-blue-600 dark:text-gray-400">
+                Business + CS @ Washington University in St. Louis
+              </blockquote>
+            </div>
+
             <div className="text-center">
               <div className="relative inline-flex flex-col mb-4">
                 <img
