@@ -10,7 +10,6 @@ function classNames(...classes) {
 function Header() {
   const [mobileNavOpen, setMobileNavOpen] = useState(false);
   const [mobileAboutOpen, setMobileAboutOpen] = useState(false);
-  const [mobileResourcesOpen, setMobileResourcesOpen] = useState(false);
   const location = useLocation();
 
   const mobileNav = useRef(null);
