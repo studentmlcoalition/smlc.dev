@@ -54,7 +54,7 @@ function ResourcesBlock() {
                   alt="Adhitya Rajendra Kumar"
                 />
               </div>
-              <blockquote className="text-xl text-gray-600 dark:text-gray-400">
+              <blockquote className="text-xl text-gray-600 dark:text-gray-400 whitespace-nowrap">
                 Adhitya Rajendra Kumar
               </blockquote>
               <blockquote className="text-xl text-blue-600 dark:text-gray-400">
