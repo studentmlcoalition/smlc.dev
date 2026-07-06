@@ -62,7 +62,7 @@ function Header() {
           <div className="max-w-6xl mx-auto px-4 sm:px-6 py-3">
             <div className="flex items-center justify-center text-white text-sm sm:text-base font-medium">
               <span className="text-center">
-                New Agentic AI Module Added to Our Udemy Course!
+                New AI Safety Module Added to Our Udemy Course!
               </span>
               <ArrowRightIcon className="ml-2 h-4 w-4 sm:h-5 sm:w-5 flex-shrink-0" />
             </div>
